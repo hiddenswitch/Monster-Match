@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>%UNITY_WEB_NAME%</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="TemplateData/getusermedia.js"></script>
+    <script src="%UNITY_WEBGL_LOADER_URL%"></script>
+</head>
+<body style="height:100%;">
+<audio id="game-music" src="TemplateData/monster-match.m4a"></audio>
+<audio id="game-music-buffered"></audio>
+<div id="container">
+    <div class="webgl-content">
+        <div id="gameContainer" onclick="startAudioAndGame();"></div>
+        <div class="frame" id="left-piece"></div>
+        <div class="frame" id="right-piece"></div>
+        <div class="frame" id="mute-button"></div>
+        <div class="always-show" id="play-button" onclick="startAudioAndGame();"></div>
+    </div>
+</div>
+<style>
+    body {
+        overflow: hidden;
+        -webkit-user-select: none;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #container {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    #gameContainer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .frame {
+        display: none;
+    }
+
+    .always-show {
+        display: block;
+        position: relative;
+    }
+
+    #play-button {
+        position: absolute;
+        background-color: black;
+        background-image: url('TemplateData/playbutton.png');
+        background-size: 128px 128px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 150px;
+        height: 150px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    @media screen and (max-width: 600px) {
+        .webgl-content {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    @media screen and (min-width: 601px) {
+        .webgl-content {
+            width: 375px;
+            height: 635px
+        }
+
+        .frame {
+            display: block;
+            position: relative;
+        }
+
+        body {
+            background-image: url('TemplateData/background.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+
+        #left-piece {
+            background-image: url('TemplateData/background_03.png');
+
+            top: -635px;
+            left: 0px;
+            width: 17px;
+            height: 635px;
+        }
+
+        #right-piece {
+            background-image: url('TemplateData/background_05.png');
+            top: -1269.5px;
+            right: -354px;
+            width: 22px;
+            height: 635px;
+        }
+
+        #mute-button {
+            background-image: url('TemplateData/mutebutton.png');
+            top: -1250px;
+            right: -23px;
+            width: 32px;
+            height: 32px;
+        }
+    }
+</style>
+<script>
+    var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    var started = false;
+    var epsilon = 0.6;
+    var pausedDueToBlur = false;
+    var muted = true;
+    var loadedUnity = false;
+    var legacy = false;
+    var playButton = document.getElementById('play-button');
+    var hidePlayButton = function () {
+        playButton.style.display = 'none';
+    };
+    var musicElement = document.getElementById('game-music');
+    var gameInstance = null;
+    var loadUnity = function () {
+        if (loadedUnity) {
+            return;
+        }
+
+        loadedUnity = true;
+        var buildPath = "%UNITY_WEBGL_BUILD_URL%";
+        if (!/UNITY_WEBGL_BUILD_URL/.test(buildPath)) {
+            gameInstance = UnityLoader.instantiate("gameContainer", buildPath, {
+                onProgress: function (gameInstance, progress) {
+                    UnityProgress(gameInstance, progress);
+                    if (progress == 1) {
+                        hidePlayButton();
+                    }
+                }
+            });
+        }
+    };
+
+    var globalGain = null;
+    var maxVolume = iOS ? 0.035 : 1;
+
+    var toggleMute = function () {
+        muted = !muted;
+        var muteButtonElement = document.getElementById('mute-button');
+        muteButtonElement.style.backgroundImage = 'url("' + (muted ? 'TemplateData/mutebutton.png' : 'TemplateData/mutebutton-2.png') + '")';
+        if (muted) {
+            globalGain.gain.value = 0;
+        } else {
+            globalGain.gain.value = maxVolume;
+        }
+    };
+
+    // Start loading after 400ms
+    setTimeout(function () {
+        loadUnity();
+    }, iOS ? 400 : 1000);
+
+    var startAudioAndGame = function (e) {
+        if (started) {
+            return;
+        }
+
+        started = true;
+        window.addEventListener('blur', function () {
+            musicElement.pause();
+            pausedDueToBlur = true;
+        });
+
+        window.addEventListener('focus', function () {
+            if (pausedDueToBlur) {
+                musicElement.play();
+                pausedDueToBlur = false;
+            }
+        });
+
+        // There's no solution for this on mobile
+        if (iOS && legacy) {
+            musicElement.loop = true;
+            musicElement.play();
+            musicElement.volume = maxVolume;
+
+            hidePlayButton();
+            loadUnity();
+            return;
+        }
+
+        var AudioContext = window.AudioContext || window.webkitAudioContext;
+        var audioContext = new AudioContext();
+        var musicCurrent = audioContext.createMediaElementSource(musicElement);
+        globalGain = audioContext.createGain();
+        globalGain.connect(audioContext.destination);
+        if (iOS && !legacy) {
+            globalGain.gain.value = maxVolume;
+            musicCurrent.connect(globalGain);
+            musicCurrent.mediaElement.loop = true;
+            musicCurrent.mediaElement.play();
+        } else if (!iOS) {
+            musicCurrent.mediaElement = musicElement;
+            var musicElementBuffered = document.getElementById('game-music-buffered');
+            musicElementBuffered.src = musicElement.src;
+            var musicNext = audioContext.createMediaElementSource(musicElementBuffered);
+            musicNext.mediaElement = musicElementBuffered;
+            var musicElementGain = audioContext.createGain();
+            var musicElementBufferedGain = audioContext.createGain();
+            musicElementGain.connect(globalGain);
+            musicElementBufferedGain.connect(globalGain);
+            musicCurrent.connect(musicElementGain);
+            musicNext.connect(musicElementBufferedGain);
+            musicElementBufferedGain.gain.setValueAtTime(0, 0);
+            musicCurrent.mediaElement.loop = true;
+            musicCurrent.mediaElement.play();
+
+            var gainById = {
+                'game-music': musicElementGain,
+                'game-music-buffered': musicElementBufferedGain
+            };
+
+            function musicHandler(ignored) {
+                if (musicCurrent.mediaElement.duration - musicCurrent.mediaElement.currentTime < epsilon) {
+                    gainById[musicCurrent.mediaElement.id].gain.setTargetAtTime(0, audioContext.currentTime, epsilon);
+                    musicCurrent.mediaElement.removeEventListener('timeupdate', musicHandler);
+                    // Swap
+                    const temp = musicCurrent;
+                    musicCurrent = musicNext;
+                    musicNext = temp;
+                    // Start again
+                    musicCurrent.mediaElement.currentTime = 0;
+                    musicCurrent.mediaElement.play();
+                    // Make sure that the blur handler works
+                    musicElement = musicCurrent.mediaElement;
+                    gainById[musicCurrent.mediaElement.id].gain.setTargetAtTime(1, audioContext.currentTime, epsilon);
+                    musicCurrent.mediaElement.addEventListener('timeupdate', musicHandler);
+                }
+            }
+
+            musicCurrent.mediaElement.addEventListener('timeupdate', musicHandler);
+            document.getElementById('mute-button').addEventListener('click', toggleMute);
+        }
+        toggleMute();
+        hidePlayButton();
+        loadUnity();
+    };
+
+    document.body.addEventListener("touchstart", startAudioAndGame);
+</script>
+</body>

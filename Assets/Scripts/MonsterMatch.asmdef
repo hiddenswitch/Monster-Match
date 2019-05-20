@@ -1,0 +1,24 @@
+{
+    "name": "MonsterMatch",
+    "references": [
+        "UniRx",
+        "MaterialUI",
+        "Demigiant",
+        "SRIA",
+        "KeyboardController",
+        "UIKeyboard",
+        "SpriteFontEditor",
+        "Ink-Runtime",
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "GoogleAnalytics"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

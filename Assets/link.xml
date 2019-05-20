@@ -1,0 +1,12 @@
+<linker>
+    <assembly fullname="MonsterMatch">
+        <type fullname="MonsterMatch.*" preserve="all"/>
+    </assembly>
+    <assembly fullname="SRIA">
+        <type fullname="Com.TheFallenGames.OSA.Core.*" preserve="all"/>
+        <type fullname="Com.TheFallenGames.OSA.CustomParams.*" preserve="all"/>
+    </assembly>
+    <assembly fullname="Dialoguer">
+        <type fullname="*" preserve="all"/>
+    </assembly>
+</linker>

@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: fb8a50a1fe07f4142bbc13b245a39597
+  m_BuildRemoteCatalog: 0
+  m_RemoteCatalogBuildPath:
+    m_Id: 
+  m_RemoteCatalogLoadPath:
+    m_Id: 
+  m_overridePlayerVersion: 
+  m_GroupAssets:
+  - {fileID: 11400000, guid: bab55e473747c4a7e92ac11345524901, type: 2}
+  - {fileID: 11400000, guid: 1b0e80b18dac144f2b669f91ad3238fd, type: 2}
+  - {fileID: 11400000, guid: 19456add20e77407eadd55be84ac98b0, type: 2}
+  - {fileID: 11400000, guid: 016a590e3afb24a2c96447d837876e04, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 458e6886907a1404c98235246722e959
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 782b635538d5b44379d10aa53e70a326
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 3d0018505b1614787b138b914e220f32
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 7c7cf37d4fe4142cb994a8227ebd35ef
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: c1741700f24fc458cbcd0c997db76b6a
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: e8c194d8b0b12456a905ed5b30032217
+        m_Value: http://localhost/[BuildTarget]
+    - m_InheritedParent: 
+      m_Id: 873293b409dfc4e618b1f6d5715e9ae8
+      m_ProfileName: Production
+      m_Values:
+      - m_Id: 782b635538d5b44379d10aa53e70a326
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 3d0018505b1614787b138b914e220f32
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 7c7cf37d4fe4142cb994a8227ebd35ef
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: c1741700f24fc458cbcd0c997db76b6a
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: e8c194d8b0b12456a905ed5b30032217
+        m_Value: https://d2v2m3z6005g8q.cloudfront.net/StreamingAssets/aa/[BuildTarget]/
+    m_ProfileEntryNames:
+    - m_Id: 782b635538d5b44379d10aa53e70a326
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 3d0018505b1614787b138b914e220f32
+      m_Name: LocalBuildPath
+      m_InlineUsage: 0
+    - m_Id: 7c7cf37d4fe4142cb994a8227ebd35ef
+      m_Name: LocalLoadPath
+      m_InlineUsage: 0
+    - m_Id: c1741700f24fc458cbcd0c997db76b6a
+      m_Name: RemoteBuildPath
+      m_InlineUsage: 0
+    - m_Id: e8c194d8b0b12456a905ed5b30032217
+      m_Name: RemoteLoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 011a03b7992ab4812a2a7dc72e212c1c, type: 2}
+  m_InitializationObjects: []
+  m_ActivePlayerDataBuilderIndex: 3
+  m_ActivePlayModeDataBuilderIndex: 1
+  m_DataBuilders:
+  - {fileID: 11400000, guid: b6758d789aa4f4ff79b1fb6101c430f3, type: 2}
+  - {fileID: 11400000, guid: 5b52c73750661468c923ccb96171b932, type: 2}
+  - {fileID: 11400000, guid: 5e1ee0a39b17f42039edc5f8d42acab4, type: 2}
+  - {fileID: 11400000, guid: b02ed402bcdf544e7b8bbbeabe70b1a3, type: 2}
+  m_ActiveProfileId: 458e6886907a1404c98235246722e959
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs:
+    - UnityEditor.AddressableAssets.HostingServices.HttpHostingService, Unity.Addressables.Editor

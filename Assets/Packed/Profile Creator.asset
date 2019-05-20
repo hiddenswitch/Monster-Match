@@ -1,0 +1,2900 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f94b4b3d0a143d1a53b4d4e6785eb59, type: 3}
+  m_Name: Profile Creator
+  m_EditorClassIdentifier: 
+  m_CatalogueItemAssets:
+  - m_Name: upturned
+    m_Sprite: {fileID: 21300000, guid: b1f990beb47994b5f874eebc0731cbe3, type: 3}
+    m_Category: 7
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: nub
+    m_Sprite: {fileID: 21300000, guid: d1dc83be481584f258b181990aec48be, type: 3}
+    m_Category: 7
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: skull
+    m_Sprite: {fileID: 21300000, guid: 2fd754be5178e488b96912b0acce8f90, type: 3}
+    m_Category: 13
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: tongue
+    m_Sprite: {fileID: 21300000, guid: 353b4de7b50c5488c869261d63bb2fca, type: 3}
+    m_Category: 5
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: tongue
+    m_Sprite: {fileID: 21300000, guid: 6e23ce7e50d2c42f2affe2e2e4e3e6a6, type: 3}
+    m_Category: 5
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: liltongue
+    m_Sprite: {fileID: 21300000, guid: bdea176ec642740a4b16e28524769c14, type: 3}
+    m_Category: 5
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: heart
+    m_Sprite: {fileID: 21300000, guid: 5f5e756ea44fd4db2bf3d3698020742f, type: 3}
+    m_Category: 15
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: yellow
+    m_Sprite: {fileID: 21300000, guid: 467e666eba1ee49ddbdf3dd2de5a8804, type: 3}
+    m_Category: 4
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: bolt
+    m_Sprite: {fileID: 21300000, guid: 52ad1b5e81dc34fb98de52981f89bc08, type: 3}
+    m_Category: 6
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: open
+    m_Sprite: {fileID: 21300000, guid: ae773b5e4b38a4e75b8500430c4ad846, type: 3}
+    m_Category: 5
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: bighole
+    m_Sprite: {fileID: 21300000, guid: 7b983b6e3601b4383b528fc90271005d, type: 3}
+    m_Category: 4
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: goro
+    m_Sprite: {fileID: 21300000, guid: dd5b2c7e5f97341c9945bb58a55a9533, type: 3}
+    m_Category: 1
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: sphere
+    m_Sprite: {fileID: 21300000, guid: aaac948e8ae4a4d92861e979ad375f63, type: 3}
+    m_Category: 13
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: exclamation
+    m_Sprite: {fileID: 21300000, guid: 17b6468eb9321455c9d95ddeca1f6758, type: 3}
+    m_Category: 15
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: skull
+    m_Sprite: {fileID: 21300000, guid: bf05539e7c15d48b1bfbb19524608244, type: 3}
+    m_Category: 13
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: smallhole
+    m_Sprite: {fileID: 21300000, guid: 7a8f599efb63f41ed9793a9cbe16bcc0, type: 3}
+    m_Category: 4
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: long
+    m_Sprite: {fileID: 21300000, guid: b39acfee360da4d65993f593491a9d0d, type: 3}
+    m_Category: 7
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: slob
+    m_Sprite: {fileID: 21300000, guid: 3c2c3bfe905bb4c98abb8355fa57e3c8, type: 3}
+    m_Category: 1
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: slob
+    m_Sprite: {fileID: 21300000, guid: 42bc280f759b245a2afc4971d24e2aaf, type: 3}
+    m_Category: 1
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: tentacles
+    m_Sprite: {fileID: 21300000, guid: 569d2f0fd626549cb844500750db4551, type: 3}
+    m_Category: 3
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: upturned
+    m_Sprite: {fileID: 21300000, guid: 7083386fbbe4045f6a00066a07453d4b, type: 3}
+    m_Category: 7
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: tentacles
+    m_Sprite: {fileID: 21300000, guid: 1f0e8d8f220a4497481060fc92d76729, type: 3}
+    m_Category: 3
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: spider
+    m_Sprite: {fileID: 21300000, guid: 7af109af9ba9a4944bf31ecfda386cd7, type: 3}
+    m_Category: 1
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: can
+    m_Sprite: {fileID: 21300000, guid: 37ab8eaf6304b46fdb414c3ab84835ee, type: 3}
+    m_Category: 6
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: slender
+    m_Sprite: {fileID: 21300000, guid: 4f936b4e77b92450ea013c0638b44f5c, type: 3}
+    m_Category: 1
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: gauges
+    m_Sprite: {fileID: 21300000, guid: af4bf83e24f2a44e9930066046fbfb0f, type: 3}
+    m_Category: 6
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: bite
+    m_Sprite: {fileID: 21300000, guid: 4aefc13ed8d294e0db00dd545d695611, type: 3}
+    m_Category: 5
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: 571bec2ed160646e3ab149fa2eac4e10, type: 3}
+    m_Category: 6
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: 2e82c0ef47fa34f7eb0eb949cc8b1bba, type: 3}
+    m_Category: 4
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: open
+    m_Sprite: {fileID: 21300000, guid: 1cf8672ec9f8545ecaaab17d866dc234, type: 3}
+    m_Category: 5
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: tongue
+    m_Sprite: {fileID: 21300000, guid: 7e254e9e7681d469d9b6ea6f92e31146, type: 3}
+    m_Category: 5
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: bg4
+    m_Sprite: {fileID: 21300000, guid: 812f3f9e876e14075b8da81f844b8a98, type: 3}
+    m_Category: 0
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: slob
+    m_Sprite: {fileID: 21300000, guid: d1157dae092e54c6fb0070c7cd097a27, type: 3}
+    m_Category: 1
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: 1f167dcea4caf47c39a802d02803e3bc, type: 3}
+    m_Category: 6
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: 6ad1cebb296fe4da2a0a24f97d432be4, type: 3}
+    m_Category: 4
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: robot
+    m_Sprite: {fileID: 21300000, guid: b1b083de076374c348281695d339e130, type: 3}
+    m_Category: 1
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: open
+    m_Sprite: {fileID: 21300000, guid: ba60a2faadf50436d96c367c2b02368c, type: 3}
+    m_Category: 5
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: tentacles
+    m_Sprite: {fileID: 21300000, guid: 4f5cd028ec0e1410b98c00460dde941b, type: 3}
+    m_Category: 3
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: can
+    m_Sprite: {fileID: 21300000, guid: 65adb8dee8b9b4e8f97aa9d3d3f94835, type: 3}
+    m_Category: 6
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: fangs
+    m_Sprite: {fileID: 21300000, guid: 80da3fdec368347e3b2fb188e8ee97a1, type: 3}
+    m_Category: 5
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: exclamation
+    m_Sprite: {fileID: 21300000, guid: 0fbd38ee5cba34772a8561e22b73bc29, type: 3}
+    m_Category: 15
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: upturned
+    m_Sprite: {fileID: 21300000, guid: f9605aee61e6a427580e9701973e0116, type: 3}
+    m_Category: 7
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: sparse
+    m_Sprite: {fileID: 21300000, guid: 1becd8fc61d9e4a46ba10476b1a501b3, type: 3}
+    m_Category: 3
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: smallhole
+    m_Sprite: {fileID: 21300000, guid: a4efcd095d47844dcbde5d9a979136b7, type: 3}
+    m_Category: 4
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: liltongue
+    m_Sprite: {fileID: 21300000, guid: 8ab5b6be380bd4a60b98f321e4d75fb9, type: 3}
+    m_Category: 5
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: scowl
+    m_Sprite: {fileID: 21300000, guid: 705d1ebe60ae249b0b17ec7baf24b136, type: 3}
+    m_Category: 4
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: bighole
+    m_Sprite: {fileID: 21300000, guid: 7d3a2e7bc727346c0a5aae2ad71435d3, type: 3}
+    m_Category: 4
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: flat
+    m_Sprite: {fileID: 21300000, guid: d0bb2e0ed7cbb44b586110b5928e8766, type: 3}
+    m_Category: 7
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: html5
+    m_Sprite: {fileID: 21300000, guid: e4d9ec1ec5505452fbe4b6f410f63093, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: dino
+    m_Sprite: {fileID: 21300000, guid: 2a0f8b2e98cdd4cc48eddd0e88a37b41, type: 3}
+    m_Category: 13
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: smallhole
+    m_Sprite: {fileID: 21300000, guid: a9bc054ecc5fe426bb30e8c74bfd9452, type: 3}
+    m_Category: 4
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: robot
+    m_Sprite: {fileID: 21300000, guid: 4a18674e12521422bb9e207487eca3f2, type: 3}
+    m_Category: 1
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: question
+    m_Sprite: {fileID: 21300000, guid: e7e8475e99a5d40a9ab7eff23434e1de, type: 3}
+    m_Category: 15
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: exclamation
+    m_Sprite: {fileID: 21300000, guid: 2446cd3b6e0224590a49a42953a19597, type: 3}
+    m_Category: 15
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: strong
+    m_Sprite: {fileID: 21300000, guid: 4257930efd90d4977b1bb0f2c22356d7, type: 3}
+    m_Category: 7
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: mech
+    m_Sprite: {fileID: 21300000, guid: c6c9e83b571334904b5c426b3b64bd6a, type: 3}
+    m_Category: 13
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: bolt
+    m_Sprite: {fileID: 21300000, guid: 71c53dfda2e96415eb0e4d5e4724fd24, type: 3}
+    m_Category: 6
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: fangs
+    m_Sprite: {fileID: 21300000, guid: eaac5dbd0ea724c68a12cef78dfcf14f, type: 3}
+    m_Category: 5
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: bite
+    m_Sprite: {fileID: 21300000, guid: 97876cad8619c4f5a854a562eb560449, type: 3}
+    m_Category: 5
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: spider
+    m_Sprite: {fileID: 21300000, guid: 6d5259bdaa273485387c6a48f715bf70, type: 3}
+    m_Category: 1
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: anger
+    m_Sprite: {fileID: 21300000, guid: 7d04e0cda021e402da40dc17545c40c3, type: 3}
+    m_Category: 15
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: exclamation
+    m_Sprite: {fileID: 21300000, guid: 14c652ed308a7452e944a4ec5ef7943a, type: 3}
+    m_Category: 15
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: button
+    m_Sprite: {fileID: 21300000, guid: ba97a0fd8fd274c6d94e9d24e69a9f04, type: 3}
+    m_Category: 4
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: question
+    m_Sprite: {fileID: 21300000, guid: d0e80afd844b04f82b83b591ba8b8283, type: 3}
+    m_Category: 15
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: tumblr
+    m_Sprite: {fileID: 21300000, guid: b8c9590ee04da4b168ede4f9f4143dfb, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: button
+    m_Sprite: {fileID: 21300000, guid: ca360d0ecbb8e4cf4a97f2c77c664841, type: 3}
+    m_Category: 4
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: bolt
+    m_Sprite: {fileID: 21300000, guid: 54042fbe467cb4d25ac0f1fc09dd9529, type: 3}
+    m_Category: 6
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: scales
+    m_Sprite: {fileID: 21300000, guid: 56c5cfbee6a4e46868836676c4849126, type: 3}
+    m_Category: 14
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: question
+    m_Sprite: {fileID: 21300000, guid: fd25f4cef934d43ddb37335b08344b1a, type: 3}
+    m_Category: 15
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: 0f2cde8b870164233a797870a33cb5e0, type: 3}
+    m_Category: 4
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: 63fc77611b25149eb9946ad54f4ae0d5, type: 3}
+    m_Category: 6
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: goro
+    m_Sprite: {fileID: 21300000, guid: b255ee9b55d934db780b2a489b0e6f7c, type: 3}
+    m_Category: 1
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: cube
+    m_Sprite: {fileID: 21300000, guid: 773d23ab76c0946cba2ccb2cac8fd237, type: 3}
+    m_Category: 13
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: itchio
+    m_Sprite: {fileID: 21300000, guid: d21d0cbbc608f4597a5b4abfcbe3f215, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: bite
+    m_Sprite: {fileID: 21300000, guid: 82f8a9ada9ba24d91a2c0a5327a096c3, type: 3}
+    m_Category: 5
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: liltongue
+    m_Sprite: {fileID: 21300000, guid: f136f30bcc6aa497399c9556223eec49, type: 3}
+    m_Category: 5
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: wince
+    m_Sprite: {fileID: 21300000, guid: 5bea8a9d46106403da54e8210253ca6c, type: 3}
+    m_Category: 5
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: reg
+    m_Sprite: {fileID: 21300000, guid: 5f9e889d173944bcfbdaebf2e1b4e625, type: 3}
+    m_Category: 6
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: tumor
+    m_Sprite: {fileID: 21300000, guid: 2d551fdb384e54113a5ed505a6a4fd08, type: 3}
+    m_Category: 13
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: slender
+    m_Sprite: {fileID: 21300000, guid: 068736eb3841c455c8f76bd3efa556a2, type: 3}
+    m_Category: 1
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: vimeo
+    m_Sprite: {fileID: 21300000, guid: 94ecafeb7b65c41c198b4c084eb32fe6, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: 02paris
+    m_Sprite: {fileID: 21300000, guid: 1faf621c1450646378548c2164e319fe, type: 3}
+    m_Category: 0
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: star
+    m_Sprite: {fileID: 21300000, guid: 4fa0dd1cef0c045a39a6479dd8417fb7, type: 3}
+    m_Category: 15
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: bg2
+    m_Sprite: {fileID: 21300000, guid: 081c74999765f4a62b27079e80bbdc86, type: 3}
+    m_Category: 0
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: question
+    m_Sprite: {fileID: 21300000, guid: 78cc2e89e7d65465c92b6b673cc6673a, type: 3}
+    m_Category: 15
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: upturned
+    m_Sprite: {fileID: 21300000, guid: 13f467ea9aba24d7083b72d2c9b19f88, type: 3}
+    m_Category: 7
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: slender
+    m_Sprite: {fileID: 21300000, guid: e57354ea4df7549e29751260f5e7db14, type: 3}
+    m_Category: 1
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: muppet
+    m_Sprite: {fileID: 21300000, guid: ce6747ca8e83b478ca1e0191a186573b, type: 3}
+    m_Category: 7
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: button
+    m_Sprite: {fileID: 21300000, guid: 9731b0cad894746819bf36d07ea94210, type: 3}
+    m_Category: 4
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: dog
+    m_Sprite: {fileID: 21300000, guid: 4ff2d5ba1d7fd4d8480baacd3147919f, type: 3}
+    m_Category: 7
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: wince
+    m_Sprite: {fileID: 21300000, guid: 0a0b777dfcfb84a07834d6cfb5252aa7, type: 3}
+    m_Category: 5
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: tumor
+    m_Sprite: {fileID: 21300000, guid: 28ecc88dca9f24ea88d25024b498f5d9, type: 3}
+    m_Category: 13
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: gauges
+    m_Sprite: {fileID: 21300000, guid: 8c9bcf8d49e8740c69ca1833d018d00b, type: 3}
+    m_Category: 6
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: goro
+    m_Sprite: {fileID: 21300000, guid: 0d4f14babf85e4696bf283708daf534b, type: 3}
+    m_Category: 1
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: lamprey
+    m_Sprite: {fileID: 21300000, guid: 0e91727d8efd64eaebfea9d149498a2d, type: 3}
+    m_Category: 5
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: poof
+    m_Sprite: {fileID: 21300000, guid: f5e3d4aacedca4dc3a8bce37d60fa171, type: 3}
+    m_Category: 3
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: bigwhite
+    m_Sprite: {fileID: 21300000, guid: bb1c006df49a94af9b0df588f9501589, type: 3}
+    m_Category: 4
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: goro
+    m_Sprite: {fileID: 21300000, guid: 7d91386daead84f44a743642cda380b6, type: 3}
+    m_Category: 1
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: human
+    m_Sprite: {fileID: 21300000, guid: d94c5a5de4e53478cbe8f1305ec0a8ab, type: 3}
+    m_Category: 13
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: solid
+    m_Sprite: {fileID: 21300000, guid: 845072aad41674252aafb8b157dda036, type: 3}
+    m_Category: 4
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: strong
+    m_Sprite: {fileID: 21300000, guid: e889325dfb8674d0bae3141f26110a9e, type: 3}
+    m_Category: 7
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: tongue
+    m_Sprite: {fileID: 21300000, guid: 1896fe4d6ad8744c4bcea724b7a2ac80, type: 3}
+    m_Category: 5
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: saiyan
+    m_Sprite: {fileID: 21300000, guid: 78d0f64dcfcb345b5b890f17450903d9, type: 3}
+    m_Category: 3
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: rabbit
+    m_Sprite: {fileID: 21300000, guid: db439c3d6554d47328b2bd378ca563a9, type: 3}
+    m_Category: 6
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: tumor
+    m_Sprite: {fileID: 21300000, guid: 02b1325dd350f4b4d9f32087d16aff61, type: 3}
+    m_Category: 13
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: slob
+    m_Sprite: {fileID: 21300000, guid: b68afc5df504c465394537ef90757b74, type: 3}
+    m_Category: 1
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: heart
+    m_Sprite: {fileID: 21300000, guid: b5d78b3dad1694911b74613fb6d1b81a, type: 3}
+    m_Category: 15
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: tiny
+    m_Sprite: {fileID: 21300000, guid: c8d3d63d4a4c7446a80f2b6d1bdd2cd5, type: 3}
+    m_Category: 6
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: star
+    m_Sprite: {fileID: 21300000, guid: f3e6171dc2cc34ec88fd9d4e8f3804d4, type: 3}
+    m_Category: 15
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: snake
+    m_Sprite: {fileID: 21300000, guid: 368d0d7a3c53841ad91890902c03fd9f, type: 3}
+    m_Category: 1
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: b67f7e8aa90ee4d1cb8c69e8949e85d3, type: 3}
+    m_Category: 4
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: fc2252c827e684dbe80ff97966aa3969, type: 3}
+    m_Category: 6
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: sharethis
+    m_Sprite: {fileID: 21300000, guid: 8b1cdf8a9e0724822a2b47359d2a11be, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: tiny
+    m_Sprite: {fileID: 21300000, guid: ab57870d60e1b4cc9baa01894458ed6b, type: 3}
+    m_Category: 6
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: lump
+    m_Sprite: {fileID: 21300000, guid: ac69450de544448c6b8936ff3f8bd2e9, type: 3}
+    m_Category: 7
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: bite
+    m_Sprite: {fileID: 21300000, guid: becef30de522a4926b63bd40e220f03c, type: 3}
+    m_Category: 5
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: anime
+    m_Sprite: {fileID: 21300000, guid: 1797d50da3a394aaea6ded912c4baee0, type: 3}
+    m_Category: 4
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: scowl
+    m_Sprite: {fileID: 21300000, guid: f226e11d3a9f742d39602cfb4d7372aa, type: 3}
+    m_Category: 4
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: robot
+    m_Sprite: {fileID: 21300000, guid: f8ad102d577fa40be91ed37fd80a6825, type: 3}
+    m_Category: 1
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: tumor
+    m_Sprite: {fileID: 21300000, guid: 1726e62df7c474b3fbbfcae1748229cf, type: 3}
+    m_Category: 13
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: incubus
+    m_Sprite: {fileID: 21300000, guid: 42a6382daea0648df83fc51bcfef5b2b, type: 3}
+    m_Category: 1
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: slender
+    m_Sprite: {fileID: 21300000, guid: d2fd52ec28af1449dbe1610ac284fa5e, type: 3}
+    m_Category: 1
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: patreon
+    m_Sprite: {fileID: 21300000, guid: 385722fc3fe604aa09b1b1289ad6d951, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: long
+    m_Sprite: {fileID: 21300000, guid: 76cc92dc3eb6f479ebc9266169fdbf69, type: 3}
+    m_Category: 7
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: anger
+    m_Sprite: {fileID: 21300000, guid: b343596a503764140b9d3bb678a25032, type: 3}
+    m_Category: 15
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: star
+    m_Sprite: {fileID: 21300000, guid: 0861d1dcfcd5f4c7faf5872ccac7d43e, type: 3}
+    m_Category: 15
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: poof
+    m_Sprite: {fileID: 21300000, guid: 4a06c6cc633aa4e2db8aec12c01887e8, type: 3}
+    m_Category: 3
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: severe
+    m_Sprite: {fileID: 21300000, guid: 745c886a5669a4e2aa252dce7e025a16, type: 3}
+    m_Category: 4
+    m_Color: 0
+    m_FlipsAfterStamp: 1
+  - m_Name: tentacles
+    m_Sprite: {fileID: 21300000, guid: 2d08a4cc1e8544c3193070c72a0c5bb0, type: 3}
+    m_Category: 3
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: dizzy
+    m_Sprite: {fileID: 21300000, guid: efa32bbce7d1340f1854f9b0ba212184, type: 3}
+    m_Category: 15
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: sparkles
+    m_Sprite: {fileID: 21300000, guid: 9dc959bc63386485598fd1cf0cf36fa8, type: 3}
+    m_Category: 15
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: bigwhite
+    m_Sprite: {fileID: 21300000, guid: e9ab5cbc6282b4faab2bacc39675d23b, type: 3}
+    m_Category: 4
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: solid
+    m_Sprite: {fileID: 21300000, guid: 287a4fbc70a6444d687fd810ca6cff35, type: 3}
+    m_Category: 4
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: cube
+    m_Sprite: {fileID: 21300000, guid: 8dd3c8cc4b0844fb5baacdbe8bba19db, type: 3}
+    m_Category: 13
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: solid
+    m_Sprite: {fileID: 21300000, guid: 23088bdcc5ad54bf99bfef384259bea0, type: 3}
+    m_Category: 4
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: sparkles
+    m_Sprite: {fileID: 21300000, guid: c2f0ad3ae81634ed8bdf1d9400c282c1, type: 3}
+    m_Category: 15
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: lump
+    m_Sprite: {fileID: 21300000, guid: d3e073bc5ef4c443081850f52afa5883, type: 3}
+    m_Category: 7
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: cheek
+    m_Sprite: {fileID: 21300000, guid: 313fb1bc80c4d4ccf89ea4c84fd41507, type: 3}
+    m_Category: 5
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: music
+    m_Sprite: {fileID: 21300000, guid: d220843a01efd497ab629d381b84c250, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: lips
+    m_Sprite: {fileID: 21300000, guid: 425ee3ac076164bbc9f49f69e09c4b3b, type: 3}
+    m_Category: 5
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: upturned
+    m_Sprite: {fileID: 21300000, guid: 6e0bb1ac987004349811567cf48be09a, type: 3}
+    m_Category: 7
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: gmail
+    m_Sprite: {fileID: 21300000, guid: dda0a61ada2c2433eb48f97d36ea2519, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: incubus
+    m_Sprite: {fileID: 21300000, guid: f477222aa582f4f64ae93f977eef3485, type: 3}
+    m_Category: 1
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: human
+    m_Sprite: {fileID: 21300000, guid: 813e532a520554988b26b1d18767400e, type: 3}
+    m_Category: 13
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: open
+    m_Sprite: {fileID: 21300000, guid: 3f65cf9c083ad4bb5a0f9e66c9db2ef3, type: 3}
+    m_Category: 5
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: blob
+    m_Sprite: {fileID: 21300000, guid: 4748ba9cfa2f84d3997ec1ed35c8be21, type: 3}
+    m_Category: 1
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: nub
+    m_Sprite: {fileID: 21300000, guid: 3d43bc9cdfb344c849af01f6575a1dfe, type: 3}
+    m_Category: 7
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: 016dd8ac75c4240ea89e56c4ce97222c, type: 3}
+    m_Category: 4
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: 955e16c13ca7548a4b4971c6cf25c511, type: 3}
+    m_Category: 6
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: goo
+    m_Sprite: {fileID: 21300000, guid: 383aa2bc48986416c9c208d5aa95a07a, type: 3}
+    m_Category: 13
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: human
+    m_Sprite: {fileID: 21300000, guid: 670cf3f95d092450284bc18c9fd1ffa2, type: 3}
+    m_Category: 13
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: can
+    m_Sprite: {fileID: 21300000, guid: 1a9ba09c7a88848bbb483f68a47ad076, type: 3}
+    m_Category: 6
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: scowl
+    m_Sprite: {fileID: 21300000, guid: 5d64d79c4c7824dc899da35d5982bbd6, type: 3}
+    m_Category: 4
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: wince
+    m_Sprite: {fileID: 21300000, guid: 76c0be8cf98e441529ec046baf7174fc, type: 3}
+    m_Category: 5
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: robot
+    m_Sprite: {fileID: 21300000, guid: bdc452f9b552f4c93b774871c799fae1, type: 3}
+    m_Category: 1
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: narrow
+    m_Sprite: {fileID: 21300000, guid: 2dafb2f9e5eee4f829195f7c13f8691c, type: 3}
+    m_Category: 7
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: star
+    m_Sprite: {fileID: 21300000, guid: da8fa68cfd1f8497ea30f71e618150b4, type: 3}
+    m_Category: 15
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: phalic
+    m_Sprite: {fileID: 21300000, guid: fb21f16c9e5284417a7a255900aa6ba0, type: 3}
+    m_Category: 7
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: lamprey
+    m_Sprite: {fileID: 21300000, guid: f5807e4ca5a1849218ead1e8f77f4a66, type: 3}
+    m_Category: 5
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: goo
+    m_Sprite: {fileID: 21300000, guid: 10dbe34ce1f9c47018f05085f660da97, type: 3}
+    m_Category: 13
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: delicious
+    m_Sprite: {fileID: 21300000, guid: 1d55bb4cf1ec04fd9bbed6996fae6842, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: snake
+    m_Sprite: {fileID: 21300000, guid: a9d1045cf7bca4e80a030d82fb8678f7, type: 3}
+    m_Category: 1
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: yellow
+    m_Sprite: {fileID: 21300000, guid: 5641126c9fcb64edab7114a57464266e, type: 3}
+    m_Category: 4
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: mech
+    m_Sprite: {fileID: 21300000, guid: 231e186c2d785499ca7238d8e0bd9132, type: 3}
+    m_Category: 13
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: goo
+    m_Sprite: {fileID: 21300000, guid: ec13586ccbc3747aa83c44984c81e76c, type: 3}
+    m_Category: 13
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: sparkles
+    m_Sprite: {fileID: 21300000, guid: 6de0cdd95e7754bce95ccdede54f672a, type: 3}
+    m_Category: 15
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: 4a451d2c649c340cf82df4ba4efcafac, type: 3}
+    m_Category: 6
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: 16f315e28c2f840adab04b5310bc6e91, type: 3}
+    m_Category: 4
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: reg
+    m_Sprite: {fileID: 21300000, guid: 9592a11c6717c4e68a8c0760fc1a22ab, type: 3}
+    m_Category: 6
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: rabbit
+    m_Sprite: {fileID: 21300000, guid: 6683cbeb995d446bcb4518924cf02530, type: 3}
+    m_Category: 6
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: button
+    m_Sprite: {fileID: 21300000, guid: 8644eeb97785e463b8678394d892e843, type: 3}
+    m_Category: 4
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: bighole
+    m_Sprite: {fileID: 21300000, guid: e4104fc95fedd4b89b85d2f65624592a, type: 3}
+    m_Category: 4
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: narrow
+    m_Sprite: {fileID: 21300000, guid: 223a35cb88b7e42d0bc0677203860b0c, type: 3}
+    m_Category: 7
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: surprise
+    m_Sprite: {fileID: 21300000, guid: c63454cb69cb14afd92c8738839b81d2, type: 3}
+    m_Category: 15
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: narrow
+    m_Sprite: {fileID: 21300000, guid: b1e1ada910c214fe78d878e04c8d9d83, type: 3}
+    m_Category: 7
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: narrow
+    m_Sprite: {fileID: 21300000, guid: 4d005bab5c9834d99bc0863b7cef0cb0, type: 3}
+    m_Category: 7
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: wince
+    m_Sprite: {fileID: 21300000, guid: 09c819ab0ea654e7c9f8d8e8eab091b0, type: 3}
+    m_Category: 5
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: lamprey
+    m_Sprite: {fileID: 21300000, guid: 55b8d89bbc383494ca87eb8149597030, type: 3}
+    m_Category: 5
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: reg
+    m_Sprite: {fileID: 21300000, guid: c4f6979b6c82e40ca8e36b9335d6a024, type: 3}
+    m_Category: 6
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: can
+    m_Sprite: {fileID: 21300000, guid: 8b05ff9984de246f5828c699b020f816, type: 3}
+    m_Category: 6
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: reg
+    m_Sprite: {fileID: 21300000, guid: 5da0898bd23c44195b2e07b996e85dbd, type: 3}
+    m_Category: 6
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: tiny
+    m_Sprite: {fileID: 21300000, guid: 0e276d7b0a3ce40f3b5162ccfa7ee58a, type: 3}
+    m_Category: 6
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: flat
+    m_Sprite: {fileID: 21300000, guid: d3446a3f6d0dd40c6943d51b63e2fef7, type: 3}
+    m_Category: 7
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: question
+    m_Sprite: {fileID: 21300000, guid: c705df3f303864fdab6b4587df74d965, type: 3}
+    m_Category: 15
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: goo
+    m_Sprite: {fileID: 21300000, guid: 7406705bf439d47a8b8e8b83731f70d4, type: 3}
+    m_Category: 13
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: sphere
+    m_Sprite: {fileID: 21300000, guid: 9f29145bbe5dc46bba727f2d2375f525, type: 3}
+    m_Category: 13
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: human
+    m_Sprite: {fileID: 21300000, guid: 3bd2fd5b459244e8590e9d08356cc685, type: 3}
+    m_Category: 13
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: snot
+    m_Sprite: {fileID: 21300000, guid: 8fdef06bed2b34df6a978b16995eb429, type: 3}
+    m_Category: 14
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: bg5
+    m_Sprite: {fileID: 21300000, guid: dcf86089dc2d64dcd89378c9894ce277, type: 3}
+    m_Category: 0
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: spider
+    m_Sprite: {fileID: 21300000, guid: 727717893bffb41e7a0926594b9cfea5, type: 3}
+    m_Category: 1
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: muppet
+    m_Sprite: {fileID: 21300000, guid: a4c31d6baa2ae412f944eacdd7f945ad, type: 3}
+    m_Category: 7
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: lamprey
+    m_Sprite: {fileID: 21300000, guid: 6782336b436ad431d8563dac99d11805, type: 3}
+    m_Category: 5
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: heart
+    m_Sprite: {fileID: 21300000, guid: 38c91f5b26ce343359f8f257840823b3, type: 3}
+    m_Category: 15
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: lips
+    m_Sprite: {fileID: 21300000, guid: 96759d4bb6c664b93ab1c646623889b1, type: 3}
+    m_Category: 5
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: fangs
+    m_Sprite: {fileID: 21300000, guid: 8350ec696eb0f4cfea04e64fdb35911f, type: 3}
+    m_Category: 5
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: rabbit
+    m_Sprite: {fileID: 21300000, guid: d0fa3b4bfcd054635bc816369debaf7a, type: 3}
+    m_Category: 6
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: cube
+    m_Sprite: {fileID: 21300000, guid: caba734b2a91f49f89e4567aa93c950c, type: 3}
+    m_Category: 13
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: bighole
+    m_Sprite: {fileID: 21300000, guid: 04bed969af46341689690bef9bc3c9f0, type: 3}
+    m_Category: 4
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: lump
+    m_Sprite: {fileID: 21300000, guid: 9443a04b22bd8402f87681a82470e41f, type: 3}
+    m_Category: 7
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: gauges
+    m_Sprite: {fileID: 21300000, guid: 72276f5963793492aa305be9a74fa461, type: 3}
+    m_Category: 6
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: mohawk
+    m_Sprite: {fileID: 21300000, guid: 24985e2b291904dc6bea5684affaf23d, type: 3}
+    m_Category: 3
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: phalic
+    m_Sprite: {fileID: 21300000, guid: 34d40a1b6e73b4b16ac958fd9c76a79e, type: 3}
+    m_Category: 7
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: scowl
+    m_Sprite: {fileID: 21300000, guid: 848dc0596dcf54e14ac7f74c8f84d062, type: 3}
+    m_Category: 4
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: elf
+    m_Sprite: {fileID: 21300000, guid: d1dc0f0be59bd4ee7a7e4a6c780a60d5, type: 3}
+    m_Category: 6
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: triangle
+    m_Sprite: {fileID: 21300000, guid: 0e7fd50b61bef4cad8903a279d6d36e2, type: 3}
+    m_Category: 7
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: lips
+    m_Sprite: {fileID: 21300000, guid: b342b649cc214496191393f1a10f22f1, type: 3}
+    m_Category: 5
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: sparkles
+    m_Sprite: {fileID: 21300000, guid: 2fcf720ba212c4eb4970de721116f972, type: 3}
+    m_Category: 15
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: bg1
+    m_Sprite: {fileID: 21300000, guid: 5706954941179448fb0bc38551572016, type: 3}
+    m_Category: 0
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: bigwhite
+    m_Sprite: {fileID: 21300000, guid: 02921cfa1fb8449faa245df94c3c23c5, type: 3}
+    m_Category: 4
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: liltongue
+    m_Sprite: {fileID: 21300000, guid: 41eb72fa8cd164177b4c9c1a18028f72, type: 3}
+    m_Category: 5
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: rabbit
+    m_Sprite: {fileID: 21300000, guid: 3e0d0d3997dc5459597fff4490e233f7, type: 3}
+    m_Category: 6
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: linkedin
+    m_Sprite: {fileID: 21300000, guid: 61a150faa04914b52986ff0815dc1f09, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: triangle
+    m_Sprite: {fileID: 21300000, guid: f8fd00eadf2434ac6a2e3e964c8388d2, type: 3}
+    m_Category: 7
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: saiyan
+    m_Sprite: {fileID: 21300000, guid: f7b1a5da43e79419ab7f132c7aa93b4d, type: 3}
+    m_Category: 3
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: triangle
+    m_Sprite: {fileID: 21300000, guid: e9839a2991e754175b10f843f7f5d592, type: 3}
+    m_Category: 7
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: heart
+    m_Sprite: {fileID: 21300000, guid: 7576e5ba1e1ee4eae8969d5f8fe49985, type: 3}
+    m_Category: 15
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: solid
+    m_Sprite: {fileID: 21300000, guid: 631a20ba92ed74219b0a65556732d318, type: 3}
+    m_Category: 4
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: incubus
+    m_Sprite: {fileID: 21300000, guid: aff672bad39cb4d1a9b85c65962eb8f1, type: 3}
+    m_Category: 1
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: strong
+    m_Sprite: {fileID: 21300000, guid: 36700319a920f4d1aa8b1506fcbf903c, type: 3}
+    m_Category: 7
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: strong
+    m_Sprite: {fileID: 21300000, guid: f67f1a9ab035145d28776ffe8d4fc222, type: 3}
+    m_Category: 7
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: wince
+    m_Sprite: {fileID: 21300000, guid: df4b869a4cd2b4587b3802208a7fcce9, type: 3}
+    m_Category: 5
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: bite
+    m_Sprite: {fileID: 21300000, guid: ac55c19a82e32430fa34ecfdc74d0081, type: 3}
+    m_Category: 5
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: nub
+    m_Sprite: {fileID: 21300000, guid: 0b04287a63ac84169b1a154511014777, type: 3}
+    m_Category: 7
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: pig
+    m_Sprite: {fileID: 21300000, guid: c82e187afa8f843d7acbf396a1318dd7, type: 3}
+    m_Category: 7
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: pig
+    m_Sprite: {fileID: 21300000, guid: 29e96f6aa3d57490f99a28a0b13f5f37, type: 3}
+    m_Category: 7
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: pig
+    m_Sprite: {fileID: 21300000, guid: 2405c36a1693f4916ac58cf53885386f, type: 3}
+    m_Category: 7
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: bighole
+    m_Sprite: {fileID: 21300000, guid: 876e98c83e7ed4ba28fe7251f0cd87a8, type: 3}
+    m_Category: 4
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: horn
+    m_Sprite: {fileID: 21300000, guid: 607508e8afa064b778110801baca4835, type: 3}
+    m_Category: 14
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: incubus
+    m_Sprite: {fileID: 21300000, guid: 50118e5a5c5d54d7ea336f19871e0f78, type: 3}
+    m_Category: 1
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: tentacles
+    m_Sprite: {fileID: 21300000, guid: 6f43854ad2ef94779ac519137deb67d0, type: 3}
+    m_Category: 3
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: goo
+    m_Sprite: {fileID: 21300000, guid: 71ad34f9389764846b1bf22a97e85336, type: 3}
+    m_Category: 13
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: orkut
+    m_Sprite: {fileID: 21300000, guid: 15c3aa0addc9e4f2aa057d1f5d60bbe5, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: dizzy
+    m_Sprite: {fileID: 21300000, guid: 394a7fb8e849f4d8189d094710d4b34c, type: 3}
+    m_Category: 15
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: sparkles
+    m_Sprite: {fileID: 21300000, guid: 8bd2d8e9d72884c739d068d4bb927e05, type: 3}
+    m_Category: 15
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: snake
+    m_Sprite: {fileID: 21300000, guid: 87d3ade9f80b540b5a135ac8c5d9b99b, type: 3}
+    m_Category: 1
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: snake
+    m_Sprite: {fileID: 21300000, guid: 8eca4fd9e48914004a79939b7e4db1a6, type: 3}
+    m_Category: 1
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: dino
+    m_Sprite: {fileID: 21300000, guid: a62219b824af1405f95dd69f7215c171, type: 3}
+    m_Category: 13
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: veins
+    m_Sprite: {fileID: 21300000, guid: ec41a1d93a29b4d60b2795732606defb, type: 3}
+    m_Category: 15
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: blob
+    m_Sprite: {fileID: 21300000, guid: 3aa73fa9af34a4711985a17f01eb1a13, type: 3}
+    m_Category: 1
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: slender
+    m_Sprite: {fileID: 21300000, guid: 088597b9e258a4ab88117a53d9936725, type: 3}
+    m_Category: 1
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: phalic
+    m_Sprite: {fileID: 21300000, guid: 6e4078a8087b341eb970ba92c978456f, type: 3}
+    m_Category: 7
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: tongue
+    m_Sprite: {fileID: 21300000, guid: 3b439ba971d2045028f8c56b6508b856, type: 3}
+    m_Category: 5
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: cube
+    m_Sprite: {fileID: 21300000, guid: 6d0493a9eb5fd4ec8a0e97b7d01a6d43, type: 3}
+    m_Category: 13
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: anime
+    m_Sprite: {fileID: 21300000, guid: 796d36a8d274b4d89a09c2827f74ca52, type: 3}
+    m_Category: 4
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: gauges
+    m_Sprite: {fileID: 21300000, guid: 6d61339931e0441f296c2b780df3bfe6, type: 3}
+    m_Category: 6
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: exclamation
+    m_Sprite: {fileID: 21300000, guid: c7ef3e79b9d9c40b5a947388a9b7beba, type: 3}
+    m_Category: 15
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: human
+    m_Sprite: {fileID: 21300000, guid: 357bce79a905e491b815969d214b17c2, type: 3}
+    m_Category: 13
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: skull
+    m_Sprite: {fileID: 21300000, guid: c194d6796a5bd470aa4189517c1e222f, type: 3}
+    m_Category: 13
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: long
+    m_Sprite: {fileID: 21300000, guid: 7cb1696947aac4da38202e5d53ff7a36, type: 3}
+    m_Category: 7
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: flat
+    m_Sprite: {fileID: 21300000, guid: 57ab7a1f04c244b449596f42e27871b1, type: 3}
+    m_Category: 7
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: mohawk
+    m_Sprite: {fileID: 21300000, guid: 3ad0b949a560b402f967a8dee99ec833, type: 3}
+    m_Category: 3
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: mohawk
+    m_Sprite: {fileID: 21300000, guid: 49f32de76e004403b8e6a065c97b2fe8, type: 3}
+    m_Category: 3
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: nub
+    m_Sprite: {fileID: 21300000, guid: 4f702d39e0349415787392dc4d968bb3, type: 3}
+    m_Category: 7
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: narrow
+    m_Sprite: {fileID: 21300000, guid: 55503e78a29fe4f10b575551525a6723, type: 3}
+    m_Category: 7
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: mohawk
+    m_Sprite: {fileID: 21300000, guid: 597ce939749204b52b1a92ef6941214e, type: 3}
+    m_Category: 3
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: yellow
+    m_Sprite: {fileID: 21300000, guid: 60d97b29dffe144faa653b099fb2afa6, type: 3}
+    m_Category: 4
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: bolt
+    m_Sprite: {fileID: 21300000, guid: 7f6f1429639864d3185c608ec044e6eb, type: 3}
+    m_Category: 6
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: fangs
+    m_Sprite: {fileID: 21300000, guid: 685eb47858d97495aac01c4d38809243, type: 3}
+    m_Category: 5
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: strong
+    m_Sprite: {fileID: 21300000, guid: aa1d6619059b94e289f8980df0504840, type: 3}
+    m_Category: 7
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: dino
+    m_Sprite: {fileID: 21300000, guid: dc394858731e84c2589f67717a4768e5, type: 3}
+    m_Category: 13
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: notched
+    m_Sprite: {fileID: 21300000, guid: 3e829e09b63ee454caeabc558b9b497c, type: 3}
+    m_Category: 4
+    m_Color: 0
+    m_FlipsAfterStamp: 1
+  - m_Name: upturned
+    m_Sprite: {fileID: 21300000, guid: c43a5209abdb74d10b71bea615c627c4, type: 3}
+    m_Category: 7
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: yellow
+    m_Sprite: {fileID: 21300000, guid: 523cf948831e34f74b51c262849513b4, type: 3}
+    m_Category: 4
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: blob
+    m_Sprite: {fileID: 21300000, guid: 7ecf6158f66ab46d1a93cf05abde1e05, type: 3}
+    m_Category: 1
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: bighole
+    m_Sprite: {fileID: 21300000, guid: 2cea85585a9db47a0afdb582cf3ef975, type: 3}
+    m_Category: 4
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: narrow
+    m_Sprite: {fileID: 21300000, guid: 52d3f1f88d7f640a5a5407da231a5cdc, type: 3}
+    m_Category: 7
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: muppet
+    m_Sprite: {fileID: 21300000, guid: 7487cbbfe29ad4618a688fb900c3b0fd, type: 3}
+    m_Category: 7
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: snake
+    m_Sprite: {fileID: 21300000, guid: 3488d3cfc6f714e718b6928c476f04b8, type: 3}
+    m_Category: 1
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: googleplus
+    m_Sprite: {fileID: 21300000, guid: db41c0dfe1f964780adb28430109506d, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: cube
+    m_Sprite: {fileID: 21300000, guid: 0868fedfb8f674bcf9f78ab619b04c7f, type: 3}
+    m_Category: 13
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: fangs
+    m_Sprite: {fileID: 21300000, guid: 489397c84351744769da9559220e1de5, type: 3}
+    m_Category: 5
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: saiyan
+    m_Sprite: {fileID: 21300000, guid: 3ada37efe19a544e5b3d3fb364ed4552, type: 3}
+    m_Category: 3
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: lamprey
+    m_Sprite: {fileID: 21300000, guid: bee2aaefe500f4aeba1031747dc915b2, type: 3}
+    m_Category: 5
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: snake
+    m_Sprite: {fileID: 21300000, guid: 66cfa1ffc951d41bb8f959118939c962, type: 3}
+    m_Category: 1
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: blob
+    m_Sprite: {fileID: 21300000, guid: 3dfae0bf9a9f2427ab8d1f4c2de77eee, type: 3}
+    m_Category: 1
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: elf
+    m_Sprite: {fileID: 21300000, guid: 2fb162bf6d3834bd088d917c5e738540, type: 3}
+    m_Category: 6
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: rabbit
+    m_Sprite: {fileID: 21300000, guid: e24045b8db468410e8d31fbbf8796bc1, type: 3}
+    m_Category: 6
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: poof
+    m_Sprite: {fileID: 21300000, guid: b12c72bf0b716433890e07aabee014f8, type: 3}
+    m_Category: 3
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: dino
+    m_Sprite: {fileID: 21300000, guid: 0d7cc6bf8c7304bdea736c0c70085407, type: 3}
+    m_Category: 13
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: lump
+    m_Sprite: {fileID: 21300000, guid: 7c432c985f7784e4b8a3b8ca116fa235, type: 3}
+    m_Category: 7
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: bigwhite
+    m_Sprite: {fileID: 21300000, guid: 466d60285ca8b4ca5bcc54b4a9467451, type: 3}
+    m_Category: 4
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: bolt
+    m_Sprite: {fileID: 21300000, guid: 1feb80bf1f4774815a31decb825a969e, type: 3}
+    m_Category: 6
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: elf
+    m_Sprite: {fileID: 21300000, guid: c4ee4028594f8479ca40684d90908dcf, type: 3}
+    m_Category: 6
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: tiny
+    m_Sprite: {fileID: 21300000, guid: fdff2e0f27fa64a36b570e6d4bf404d7, type: 3}
+    m_Category: 6
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: rabbit
+    m_Sprite: {fileID: 21300000, guid: ca312f8853a5f42788a879e27c9a0453, type: 3}
+    m_Category: 6
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: robot
+    m_Sprite: {fileID: 21300000, guid: 4e393218e6c9444b3a0d1cbc28e4595f, type: 3}
+    m_Category: 1
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: sphere
+    m_Sprite: {fileID: 21300000, guid: 1e764818113e044b7958ff715df54a8e, type: 3}
+    m_Category: 13
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: triangle
+    m_Sprite: {fileID: 21300000, guid: bbdcd99f556f046a2abf6d4dec5567e5, type: 3}
+    m_Category: 7
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: bigwhite
+    m_Sprite: {fileID: 21300000, guid: 19dde1afbcfc94a4d8b6f4b983863408, type: 3}
+    m_Category: 4
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: cb48e7af2fba34bfea9fdd4c224bf637, type: 3}
+    m_Category: 4
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: 54a3fd1f4bb254b169040144490ef44f, type: 3}
+    m_Category: 6
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: wince
+    m_Sprite: {fileID: 21300000, guid: 9e39ac8839af746eca325221c0236df0, type: 3}
+    m_Category: 5
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: veins
+    m_Sprite: {fileID: 21300000, guid: a6078788cc3fc4b3da7619fc44a8fdf0, type: 3}
+    m_Category: 15
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: poof
+    m_Sprite: {fileID: 21300000, guid: 84e2f86f8212a44e8bdd8bd7190d1e91, type: 3}
+    m_Category: 3
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: dino
+    m_Sprite: {fileID: 21300000, guid: d95d1488a9375414d984ce864aa37778, type: 3}
+    m_Category: 13
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: human
+    m_Sprite: {fileID: 21300000, guid: 0a786688119b742a784f5cabd319a136, type: 3}
+    m_Category: 13
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: goro
+    m_Sprite: {fileID: 21300000, guid: 9cb25878742db4352bbbc37c45d40493, type: 3}
+    m_Category: 1
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: lips
+    m_Sprite: {fileID: 21300000, guid: 4d228908859a240598e793da64341dac, type: 3}
+    m_Category: 5
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: narrow
+    m_Sprite: {fileID: 21300000, guid: 2c56b24f8397a4a68a1eaa41028811d3, type: 3}
+    m_Category: 7
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: long
+    m_Sprite: {fileID: 21300000, guid: 0f7b084ff130a4e0596e8f4b47f4ebff, type: 3}
+    m_Category: 7
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: society6
+    m_Sprite: {fileID: 21300000, guid: 51cd3f4f0ed7a4491ba4791295dbec60, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: smallhole
+    m_Sprite: {fileID: 21300000, guid: 72cbaf9d8e71b4e549bc1757e5460b6a, type: 3}
+    m_Category: 4
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: smallhole
+    m_Sprite: {fileID: 21300000, guid: 05b325ad585904940ae837a1699fdcc2, type: 3}
+    m_Category: 4
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: horn
+    m_Sprite: {fileID: 21300000, guid: b474e478614454db5b508ebfffd41bc6, type: 3}
+    m_Category: 14
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: muppet
+    m_Sprite: {fileID: 21300000, guid: 696cd2087af214783bedf303f3621d4a, type: 3}
+    m_Category: 7
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: star
+    m_Sprite: {fileID: 21300000, guid: 06a3de5fe2cd54d9a85be241c6e85707, type: 3}
+    m_Category: 15
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: sparkles
+    m_Sprite: {fileID: 21300000, guid: c4aa3e384ed4b44948f7f310aa3a5e8e, type: 3}
+    m_Category: 15
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: rss
+    m_Sprite: {fileID: 21300000, guid: 8a26594823c694ad6ba0634eb480361f, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: tiny
+    m_Sprite: {fileID: 21300000, guid: b13bb128227624d6aa9e4c1c30dce242, type: 3}
+    m_Category: 6
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: deviantart
+    m_Sprite: {fileID: 21300000, guid: 45673238983fa406bb8bd24a8afc0d69, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: gauges
+    m_Sprite: {fileID: 21300000, guid: bd89257783177466a821e0d0cc9704f2, type: 3}
+    m_Category: 6
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: wink
+    m_Sprite: {fileID: 21300000, guid: 70ccdc7700e0044bc8a22a3cb2565148, type: 3}
+    m_Category: 4
+    m_Color: 0
+    m_FlipsAfterStamp: 1
+  - m_Name: open
+    m_Sprite: {fileID: 21300000, guid: 3dc48be131c694b9cb8f44e8c9ce096a, type: 3}
+    m_Category: 5
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: solid
+    m_Sprite: {fileID: 21300000, guid: 64204bc1d56984536b52e8f6750e57d9, type: 3}
+    m_Category: 4
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: pig
+    m_Sprite: {fileID: 21300000, guid: b9f509c177ed74854ae8b6fa09f75bc8, type: 3}
+    m_Category: 7
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: muppet
+    m_Sprite: {fileID: 21300000, guid: 217bbb37675784b53b6615d96ed8ac5b, type: 3}
+    m_Category: 7
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: tongue
+    m_Sprite: {fileID: 21300000, guid: 212af6c185a374de2a07eec467db2a03, type: 3}
+    m_Category: 5
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: lump
+    m_Sprite: {fileID: 21300000, guid: f75c5f27eec614681927ee8f2b87bd4b, type: 3}
+    m_Category: 7
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: heart
+    m_Sprite: {fileID: 21300000, guid: 8f8b85c1e0fea409e9be3bd5831ee362, type: 3}
+    m_Category: 15
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: button
+    m_Sprite: {fileID: 21300000, guid: ebacf3c1f035d45988c0395a4409d6d1, type: 3}
+    m_Category: 4
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: dog
+    m_Sprite: {fileID: 21300000, guid: 21646c0775a4d488aac2bce0573c7a0a, type: 3}
+    m_Category: 7
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: skull
+    m_Sprite: {fileID: 21300000, guid: 47e39317c026a4d7084df10537353405, type: 3}
+    m_Category: 13
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: horn
+    m_Sprite: {fileID: 21300000, guid: fe2c4817325164d9391d5dc83c48ed3f, type: 3}
+    m_Category: 14
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: poof
+    m_Sprite: {fileID: 21300000, guid: 7a1c4c17828144c0cb978c3df50e654f, type: 3}
+    m_Category: 3
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: 00beach
+    m_Sprite: {fileID: 21300000, guid: b13214275598d4a75bc86b7367769fa6, type: 3}
+    m_Category: 0
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: yellow
+    m_Sprite: {fileID: 21300000, guid: 0c767d273d5f64dc7b9dec701cf6fb4e, type: 3}
+    m_Category: 4
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: elf
+    m_Sprite: {fileID: 21300000, guid: 28c632078bc144ded964028655c68907, type: 3}
+    m_Category: 6
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: solid
+    m_Sprite: {fileID: 21300000, guid: 00e9e307fc1d04dd8afc1bdb756d3b24, type: 3}
+    m_Category: 4
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: muppet
+    m_Sprite: {fileID: 21300000, guid: 815a4b0758fee4f1d819a72406a41719, type: 3}
+    m_Category: 7
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: bigwhite
+    m_Sprite: {fileID: 21300000, guid: d83d5bb16da0447a582c5aff209b0241, type: 3}
+    m_Category: 4
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: slender
+    m_Sprite: {fileID: 21300000, guid: cb7590d1ebb324b229b92f33fb6d3874, type: 3}
+    m_Category: 1
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: ooo
+    m_Sprite: {fileID: 21300000, guid: 5a0b5af6adcfe4dbcb753bbfcbd273b1, type: 3}
+    m_Category: 5
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: tiny
+    m_Sprite: {fileID: 21300000, guid: cf628837a8e9e4d829cf92d3fab0b897, type: 3}
+    m_Category: 6
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: wince
+    m_Sprite: {fileID: 21300000, guid: 56804f372bbed4239b27158f4b09a356, type: 3}
+    m_Category: 5
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: diamond
+    m_Sprite: {fileID: 21300000, guid: 82003447bb5ca4127bd359ed8766cc7a, type: 3}
+    m_Category: 9
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: robot
+    m_Sprite: {fileID: 21300000, guid: 0fc249476b0e442a38706579b788165c, type: 3}
+    m_Category: 1
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: slender
+    m_Sprite: {fileID: 21300000, guid: 3f9d4c478746e401c84a95a93c578ea4, type: 3}
+    m_Category: 1
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: scowl
+    m_Sprite: {fileID: 21300000, guid: aca3b1574a97b4e698c513a5009b77c3, type: 3}
+    m_Category: 4
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: solid
+    m_Sprite: {fileID: 21300000, guid: a7f544573c8b0422788c9f3b82c5e9f9, type: 3}
+    m_Category: 4
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: star
+    m_Sprite: {fileID: 21300000, guid: 3469b967b895346ea816234ee44a329c, type: 3}
+    m_Category: 15
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: yellow
+    m_Sprite: {fileID: 21300000, guid: 0d60a0779b5904b149a21065a4e7d499, type: 3}
+    m_Category: 4
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: sparkles
+    m_Sprite: {fileID: 21300000, guid: 73d5f5b155c8d4891a4dd481bf6a8010, type: 3}
+    m_Category: 15
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: phalic
+    m_Sprite: {fileID: 21300000, guid: c17370a1c6d634feea7a75c8b47f92eb, type: 3}
+    m_Category: 7
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: sphere
+    m_Sprite: {fileID: 21300000, guid: 70e99fe19c29143e49b38c25d94a1b65, type: 3}
+    m_Category: 13
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: incubus
+    m_Sprite: {fileID: 21300000, guid: 455823f1a1fde466590797279e10b76a, type: 3}
+    m_Category: 1
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: skype
+    m_Sprite: {fileID: 21300000, guid: 2b130af69086742b0b0d6d4c3b58e8de, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: rabbit
+    m_Sprite: {fileID: 21300000, guid: f3df9991b1cad43afae600084ae0c977, type: 3}
+    m_Category: 6
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: triangle
+    m_Sprite: {fileID: 21300000, guid: f06788812bfe946689eb88e8cae9eedc, type: 3}
+    m_Category: 7
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: lump
+    m_Sprite: {fileID: 21300000, guid: 013dbfe67d5254277850fce968e87d30, type: 3}
+    m_Category: 7
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: bite
+    m_Sprite: {fileID: 21300000, guid: 6c8527f6736b24053843f505bf54498b, type: 3}
+    m_Category: 5
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: 82982b71feb634acfbb65dbeb756fce3, type: 3}
+    m_Category: 4
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: cat
+    m_Sprite: {fileID: 21300000, guid: 3839317197647497eb8d4b12d3d6c433, type: 3}
+    m_Category: 6
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: rabbit
+    m_Sprite: {fileID: 21300000, guid: 9532cbe6be43c46c1b31a2f2f734086d, type: 3}
+    m_Category: 6
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: sphere
+    m_Sprite: {fileID: 21300000, guid: 7fd6a071e5178438c9015f2926dc2b86, type: 3}
+    m_Category: 13
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: gauges
+    m_Sprite: {fileID: 21300000, guid: 6c783bd68c09d4895b917e22a9bc1adb, type: 3}
+    m_Category: 6
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: skull
+    m_Sprite: {fileID: 21300000, guid: 2d5f1fd6e1aa7400da5e90393ad7565a, type: 3}
+    m_Category: 13
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: liltongue
+    m_Sprite: {fileID: 21300000, guid: b7584c51f02f741fa82848577766269e, type: 3}
+    m_Category: 5
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: flat
+    m_Sprite: {fileID: 21300000, guid: 9b3ed151bcd6344ae8170497a78c4483, type: 3}
+    m_Category: 7
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: blob
+    m_Sprite: {fileID: 21300000, guid: 9e9bb271ffbe243f09cbb3709d8317ed, type: 3}
+    m_Category: 1
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: nub
+    m_Sprite: {fileID: 21300000, guid: 7ea335c6a5c7548188f9b9d43616bf41, type: 3}
+    m_Category: 7
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: saiyan
+    m_Sprite: {fileID: 21300000, guid: 4b86c8412ac3042d38fe5f5750043128, type: 3}
+    m_Category: 3
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: strong
+    m_Sprite: {fileID: 21300000, guid: 1fddceb666c694bf0bed48b29539b2bd, type: 3}
+    m_Category: 7
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: long
+    m_Sprite: {fileID: 21300000, guid: ab8f25416b35040388502257fae9d99b, type: 3}
+    m_Category: 7
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: human
+    m_Sprite: {fileID: 21300000, guid: dc5cdb21c4cc84a8c9bb015086ac0816, type: 3}
+    m_Category: 13
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: fangs
+    m_Sprite: {fileID: 21300000, guid: 83211a76c8209437aaecdfe02d1cc146, type: 3}
+    m_Category: 5
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: youtube
+    m_Sprite: {fileID: 21300000, guid: a2170fa612da645bb9ebac95a45fc6ce, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: elf
+    m_Sprite: {fileID: 21300000, guid: 0faf62b6c8eb74ce8bda723e70d0b976, type: 3}
+    m_Category: 6
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: frye
+    m_Sprite: {fileID: 21300000, guid: 566656b68c9354d93a2b422b9e54a111, type: 3}
+    m_Category: 5
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: dry
+    m_Sprite: {fileID: 21300000, guid: 6d13d15681b914a4091527e3f910d251, type: 3}
+    m_Category: 5
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: spider
+    m_Sprite: {fileID: 21300000, guid: b7fae756e37064774a59dc6c0d2d3d1b, type: 3}
+    m_Category: 1
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: slob
+    m_Sprite: {fileID: 21300000, guid: 7fddcb5694e7f472ea3ef9d64da69335, type: 3}
+    m_Category: 1
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: 01meadows
+    m_Sprite: {fileID: 21300000, guid: 1a94c4668ec6347d28eba9f25b7d085f, type: 3}
+    m_Category: 0
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: dino
+    m_Sprite: {fileID: 21300000, guid: aff6bf663ecf54426bc3e2757f5b76fe, type: 3}
+    m_Category: 13
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: tumor
+    m_Sprite: {fileID: 21300000, guid: 269fc821c2fb54ffba32ee6435ba4945, type: 3}
+    m_Category: 13
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: newsvine
+    m_Sprite: {fileID: 21300000, guid: 2bc446217622a43129065f4c7dbf07db, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: tumor
+    m_Sprite: {fileID: 21300000, guid: 32380846a117f49ef836f3dcebeac103, type: 3}
+    m_Category: 13
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: bighole
+    m_Sprite: {fileID: 21300000, guid: bf78cb4643c17431488031298448bd13, type: 3}
+    m_Category: 4
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: can
+    m_Sprite: {fileID: 21300000, guid: 0a0a15d6ac133426fbaed126db6c4a47, type: 3}
+    m_Category: 6
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: teeth
+    m_Sprite: {fileID: 21300000, guid: b42407d61b91946feaca60f1ef8e4e01, type: 3}
+    m_Category: 9
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: mohawk
+    m_Sprite: {fileID: 21300000, guid: 7a754be6b4ce7403f8ad49069320d7f4, type: 3}
+    m_Category: 3
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: sphere
+    m_Sprite: {fileID: 21300000, guid: 54a83de611d3d461ca26f88ea89be359, type: 3}
+    m_Category: 13
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: liltongue
+    m_Sprite: {fileID: 21300000, guid: 7c416521761ef412084191851280af83, type: 3}
+    m_Category: 5
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: pig
+    m_Sprite: {fileID: 21300000, guid: 926b1f11b2dcf411596fb6bdccd21adc, type: 3}
+    m_Category: 7
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: flat
+    m_Sprite: {fileID: 21300000, guid: cbcbb346446df488993ffed811bc9897, type: 3}
+    m_Category: 7
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: saiyan
+    m_Sprite: {fileID: 21300000, guid: 6e6f4211b29954fe0b7b7c8da7a1276d, type: 3}
+    m_Category: 3
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: dog
+    m_Sprite: {fileID: 21300000, guid: 01920626131ae4ae1bc744538bbd4863, type: 3}
+    m_Category: 7
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: bigwhite
+    m_Sprite: {fileID: 21300000, guid: 1aa9872609aba43feb1e2f2ae0b8bbef, type: 3}
+    m_Category: 4
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: goo
+    m_Sprite: {fileID: 21300000, guid: 4e71801170cd34bd08d2c04dd01bf80b, type: 3}
+    m_Category: 13
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: nub
+    m_Sprite: {fileID: 21300000, guid: a8915011f338644eb9d5fb31f4d81150, type: 3}
+    m_Category: 7
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: triangle
+    m_Sprite: {fileID: 21300000, guid: 5a334b166afc84822928cf70e2bae0b3, type: 3}
+    m_Category: 7
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: reg
+    m_Sprite: {fileID: 21300000, guid: 24bb7001128fb47b1911a941ee2c99f9, type: 3}
+    m_Category: 6
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: triangle
+    m_Sprite: {fileID: 21300000, guid: b86460010f8df422aa73e065d04d85a6, type: 3}
+    m_Category: 7
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: strong
+    m_Sprite: {fileID: 21300000, guid: f8ad8416c3ea04b8ea336b9d68c83b7e, type: 3}
+    m_Category: 7
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: yellow_blind
+    m_Sprite: {fileID: 21300000, guid: 3f46a8f0582254733a6d78baa3ce2b5c, type: 3}
+    m_Category: 4
+    m_Color: 0
+    m_FlipsAfterStamp: 1
+  - m_Name: cube
+    m_Sprite: {fileID: 21300000, guid: 25399be076f4d4eb582d0c7e54f9b16a, type: 3}
+    m_Category: 13
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: phalic
+    m_Sprite: {fileID: 21300000, guid: 6c35f1e53f3a94cd68c95981cac8a7d1, type: 3}
+    m_Category: 7
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: anime
+    m_Sprite: {fileID: 21300000, guid: c716e8e5bda60466993b0f53dd81360d, type: 3}
+    m_Category: 4
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: sphere
+    m_Sprite: {fileID: 21300000, guid: 913e2cf5097a24391a168e2cf88f4e89, type: 3}
+    m_Category: 13
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: muppet
+    m_Sprite: {fileID: 21300000, guid: 27d47ef56c18f473c98fc828bb3483e0, type: 3}
+    m_Category: 7
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: ruby
+    m_Sprite: {fileID: 21300000, guid: c94ea9067e7d545799ff224c299fb426, type: 3}
+    m_Category: 9
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: anime
+    m_Sprite: {fileID: 21300000, guid: 60068a06ac1e440bc81c7494fc29f3f5, type: 3}
+    m_Category: 4
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: fangs
+    m_Sprite: {fileID: 21300000, guid: 4d7183c53fc3b4ee4accdbf8307ac732, type: 3}
+    m_Category: 5
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: spider
+    m_Sprite: {fileID: 21300000, guid: 272e2dc56f4ce4c8d9382852ccc94bb1, type: 3}
+    m_Category: 1
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: smallhole
+    m_Sprite: {fileID: 21300000, guid: b1e9bdc52d8834cb2ac91d57df9f3a9f, type: 3}
+    m_Category: 4
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: horn
+    m_Sprite: {fileID: 21300000, guid: a7ce68d5b97bc454c8cfb5a4d2fb3009, type: 3}
+    m_Category: 14
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: facebook
+    m_Sprite: {fileID: 21300000, guid: a0a32cd5a34b047379ba90aed857d720, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: reg
+    m_Sprite: {fileID: 21300000, guid: ab57f6e0a896e48fc8a44cd5eedf1652, type: 3}
+    m_Category: 6
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: goo
+    m_Sprite: {fileID: 21300000, guid: ed6b61e02f78a4c4e909a8eab755f83b, type: 3}
+    m_Category: 13
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: poof
+    m_Sprite: {fileID: 21300000, guid: e218b6b5633034db2aa4114b1c1e7b13, type: 3}
+    m_Category: 3
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: closed_long
+    m_Sprite: {fileID: 21300000, guid: 904888b541d7742de81509a5e8b9ab71, type: 3}
+    m_Category: 4
+    m_Color: 0
+    m_FlipsAfterStamp: 1
+  - m_Name: question
+    m_Sprite: {fileID: 21300000, guid: f7a72516b5d7d4d12ae620c7a377c520, type: 3}
+    m_Category: 15
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: zigzag
+    m_Sprite: {fileID: 21300000, guid: 00ec63266943f4cbcb4233c9a1890a07, type: 3}
+    m_Category: 5
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: saiyan
+    m_Sprite: {fileID: 21300000, guid: a8b56c26941d34002a7bcf79ca34595f, type: 3}
+    m_Category: 3
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: slob
+    m_Sprite: {fileID: 21300000, guid: 5d78a63698e7c48be8958ef390d5801e, type: 3}
+    m_Category: 1
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: goro
+    m_Sprite: {fileID: 21300000, guid: a63cff36ad01145eab0b700952efafda, type: 3}
+    m_Category: 1
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: tongue
+    m_Sprite: {fileID: 21300000, guid: 17a0ddc09f54f488b99ec626d64463bf, type: 3}
+    m_Category: 5
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: lips
+    m_Sprite: {fileID: 21300000, guid: 31c19ac0838994da58c0221550c01fd3, type: 3}
+    m_Category: 5
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: square
+    m_Sprite: {fileID: 21300000, guid: 93afd3c021ae146e6976743138d1519a, type: 3}
+    m_Category: 5
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: nub
+    m_Sprite: {fileID: 21300000, guid: c4ac41c00c585462e86eee91ef6a07dd, type: 3}
+    m_Category: 7
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: dog
+    m_Sprite: {fileID: 21300000, guid: 4b6b46a5eed194bac8c1fd3e2483b716, type: 3}
+    m_Category: 7
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: surprise
+    m_Sprite: {fileID: 21300000, guid: a4d123b56b4634997bfc8876785722ff, type: 3}
+    m_Category: 15
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: tentacles
+    m_Sprite: {fileID: 21300000, guid: 3c8630c0313b94efea4a878938175a89, type: 3}
+    m_Category: 3
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: muppet
+    m_Sprite: {fileID: 21300000, guid: 1bcefda0673b4472c9e89581709dd60e, type: 3}
+    m_Category: 7
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: skull
+    m_Sprite: {fileID: 21300000, guid: 730370a533fe74bd99848ee59defeaf1, type: 3}
+    m_Category: 13
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: open
+    m_Sprite: {fileID: 21300000, guid: 74e588a043ae14825a5c2cfdf36e6c57, type: 3}
+    m_Category: 5
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: sparkles
+    m_Sprite: {fileID: 21300000, guid: ee90cb95ea35c47bb89340e948ddc29f, type: 3}
+    m_Category: 15
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: bite
+    m_Sprite: {fileID: 21300000, guid: 96753e77b38e24808b4927b3234d9b05, type: 3}
+    m_Category: 5
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: smallhole
+    m_Sprite: {fileID: 21300000, guid: 51a53e77d64be47c4938bc08b6657714, type: 3}
+    m_Category: 4
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: tornado
+    m_Sprite: {fileID: 21300000, guid: 0eeb8f774b2014e86a7ad46838c41536, type: 3}
+    m_Category: 15
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: bolt
+    m_Sprite: {fileID: 21300000, guid: 05b9b487f4c1a4707bd4eb7e9be89572, type: 3}
+    m_Category: 6
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: k9
+    m_Sprite: {fileID: 21300000, guid: 81ccb997a5e5b4ef9adbe1d501ad045e, type: 3}
+    m_Category: 5
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: exclamation
+    m_Sprite: {fileID: 21300000, guid: adb7c9979e3f34425a0cdcddfb191a06, type: 3}
+    m_Category: 15
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: phalic
+    m_Sprite: {fileID: 21300000, guid: ae3707c79c36b4de090319af40296fbd, type: 3}
+    m_Category: 7
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: heart
+    m_Sprite: {fileID: 21300000, guid: 07c39bc79cf9740f18996f0898052574, type: 3}
+    m_Category: 15
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: gauges
+    m_Sprite: {fileID: 21300000, guid: ee37c6d7aa0ec4b1b95e5820c76ca87b, type: 3}
+    m_Category: 6
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: sphere
+    m_Sprite: {fileID: 21300000, guid: 31f644e78a8ea45d7b586ac8e21f565e, type: 3}
+    m_Category: 13
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: tigsource
+    m_Sprite: {fileID: 21300000, guid: 09f707e76876a4301aec3b7010bdc9af, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: upturned
+    m_Sprite: {fileID: 21300000, guid: f977fc95573a74a618e93b490b57d716, type: 3}
+    m_Category: 7
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: question
+    m_Sprite: {fileID: 21300000, guid: d214f5a5252b24c8880e9db407bbab06, type: 3}
+    m_Category: 15
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: bolt
+    m_Sprite: {fileID: 21300000, guid: 52484635d6a694478bc4116599641c72, type: 3}
+    m_Category: 6
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: flat
+    m_Sprite: {fileID: 21300000, guid: 3a669c354c27e4fba81deed1d0499df8, type: 3}
+    m_Category: 7
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: blob
+    m_Sprite: {fileID: 21300000, guid: 39118045b700749b9a6e0f1370c6b61e, type: 3}
+    m_Category: 1
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: human
+    m_Sprite: {fileID: 21300000, guid: 79fd02352038a46c9836bbc63e67d49b, type: 3}
+    m_Category: 13
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: exclamation
+    m_Sprite: {fileID: 21300000, guid: 43a6de45d0a2845249fbe1108e2710eb, type: 3}
+    m_Category: 15
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: button
+    m_Sprite: {fileID: 21300000, guid: 5777e2558fdff48029c5c92fa5f3b5e3, type: 3}
+    m_Category: 4
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: addthis
+    m_Sprite: {fileID: 21300000, guid: 297e5085940c943698fb8e0ffb3180d7, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: yellow
+    m_Sprite: {fileID: 21300000, guid: 22fe8685311044e27b8b84406bd59ae5, type: 3}
+    m_Category: 4
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: mech
+    m_Sprite: {fileID: 21300000, guid: db002a8556972437ebc5a1a79b5bb737, type: 3}
+    m_Category: 13
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: steam
+    m_Sprite: {fileID: 21300000, guid: f04323955c229447eba5364e035b5c3f, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: bg6
+    m_Sprite: {fileID: 21300000, guid: c09de695db3c84b24a40396d88fe13b5, type: 3}
+    m_Category: 0
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: reg
+    m_Sprite: {fileID: 21300000, guid: 0e450b156fe4c4c388ee240e3ec1e574, type: 3}
+    m_Category: 6
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: phalic
+    m_Sprite: {fileID: 21300000, guid: c6ac4e15c1e4943ea8446fd7b6cd438d, type: 3}
+    m_Category: 7
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: barnacles
+    m_Sprite: {fileID: 21300000, guid: ef3b4605a3dc0467483737b0b146015f, type: 3}
+    m_Category: 14
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: alert
+    m_Sprite: {fileID: 21300000, guid: 42f0ac252e52f4874b908752306e8833, type: 3}
+    m_Category: 15
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: bite
+    m_Sprite: {fileID: 21300000, guid: 870ad205be09d49d89f65ef5eca8008c, type: 3}
+    m_Category: 5
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: flat
+    m_Sprite: {fileID: 21300000, guid: 585d9ff4063554557a10e1b9f4cc9ed3, type: 3}
+    m_Category: 7
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: star
+    m_Sprite: {fileID: 21300000, guid: df20110522fa44fd58a6363820604547, type: 3}
+    m_Category: 15
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: lump
+    m_Sprite: {fileID: 21300000, guid: 63676e802c4b948a2a6a25d0087a4866, type: 3}
+    m_Category: 7
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: closed_short
+    m_Sprite: {fileID: 21300000, guid: 20280a80f730d42f88e9dd9000adaafc, type: 3}
+    m_Category: 4
+    m_Color: 0
+    m_FlipsAfterStamp: 1
+  - m_Name: poof
+    m_Sprite: {fileID: 21300000, guid: 35575ce4301b44dc89d4ac1349cf4ae8, type: 3}
+    m_Category: 3
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: snake
+    m_Sprite: {fileID: 21300000, guid: 7d887db4ef4c148359dd6535607873e0, type: 3}
+    m_Category: 1
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: can
+    m_Sprite: {fileID: 21300000, guid: e60001c4b66234c488006e4292896459, type: 3}
+    m_Category: 6
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: incubus
+    m_Sprite: {fileID: 21300000, guid: 2ae007c42bdb04eeca4eb3aa1d93ec19, type: 3}
+    m_Category: 1
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: x_large
+    m_Sprite: {fileID: 21300000, guid: df6b3ed45109d4e07a7b68e410d5ab8e, type: 3}
+    m_Category: 4
+    m_Color: 0
+    m_FlipsAfterStamp: 1
+  - m_Name: tongue
+    m_Sprite: {fileID: 21300000, guid: eff87fd450bc348f58f0349e0fd1e9ea, type: 3}
+    m_Category: 5
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: mech
+    m_Sprite: {fileID: 21300000, guid: 0d4404e465f214d82ac45bdb691dfd59, type: 3}
+    m_Category: 13
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: 03blossom
+    m_Sprite: {fileID: 21300000, guid: 871a57e442aa74e02b1666988af165d8, type: 3}
+    m_Category: 0
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: tiny
+    m_Sprite: {fileID: 21300000, guid: 8b1740f435e524f66a5c072069f7d604, type: 3}
+    m_Category: 6
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: mohawk
+    m_Sprite: {fileID: 21300000, guid: 0baae1b4affe84b70a7ee54d82eef8b3, type: 3}
+    m_Category: 3
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: mech
+    m_Sprite: {fileID: 21300000, guid: f7b11f60f3d844b86afce7c0e90c296f, type: 3}
+    m_Category: 13
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: tiny
+    m_Sprite: {fileID: 21300000, guid: 6bf1cd948f0d44f1cba05a29462b9700, type: 3}
+    m_Category: 6
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: anime
+    m_Sprite: {fileID: 21300000, guid: 2ad18f94928f942e68e8a682ba8a91b0, type: 3}
+    m_Category: 4
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: lamprey
+    m_Sprite: {fileID: 21300000, guid: 4c8842a4c417b4608b9620ccec5e07a9, type: 3}
+    m_Category: 5
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: dribbble
+    m_Sprite: {fileID: 21300000, guid: 6c53c3a4a1ef64926b36f153c0f3951e, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: content
+    m_Sprite: {fileID: 21300000, guid: 6b76dba43604d4ab0a39d709678197eb, type: 3}
+    m_Category: 5
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: bigwhite
+    m_Sprite: {fileID: 21300000, guid: f53f70b43c7594d5b87c12f912b1f8f5, type: 3}
+    m_Category: 4
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: star
+    m_Sprite: {fileID: 21300000, guid: 68cba784891b245afa9f9af320585da0, type: 3}
+    m_Category: 15
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: cube
+    m_Sprite: {fileID: 21300000, guid: 9e182a84e641546908a6ea554b093eea, type: 3}
+    m_Category: 13
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: spider
+    m_Sprite: {fileID: 21300000, guid: 869d0f840acfb412c882fb8f39a2d5bb, type: 3}
+    m_Category: 1
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: scowl
+    m_Sprite: {fileID: 21300000, guid: 04f6aa94d012b454a93f011b5b7d74ff, type: 3}
+    m_Category: 4
+    m_Color: 2
+    m_FlipsAfterStamp: 1
+  - m_Name: tumor
+    m_Sprite: {fileID: 21300000, guid: c85667843359146bb88ec4cf26af05fa, type: 3}
+    m_Category: 13
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: tear
+    m_Sprite: {fileID: 21300000, guid: c7a7bec2305f64bdcaf2d6611ffe0f85, type: 3}
+    m_Category: 14
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: long
+    m_Sprite: {fileID: 21300000, guid: 111487d22d69e42fab1e2c1b6c152502, type: 3}
+    m_Category: 7
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: gamejolt
+    m_Sprite: {fileID: 21300000, guid: 7e7311e24bf6d49a7b4e986ed6e70bc0, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: slob
+    m_Sprite: {fileID: 21300000, guid: 8a077384975e2475fb00d651aa4df48c, type: 3}
+    m_Category: 1
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: triangle
+    m_Sprite: {fileID: 21300000, guid: 5c3b055453e054a9195fa413139902c0, type: 3}
+    m_Category: 7
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: open
+    m_Sprite: {fileID: 21300000, guid: 07efef445577a4bd39a7e3975ebf64ec, type: 3}
+    m_Category: 5
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: x_small
+    m_Sprite: {fileID: 21300000, guid: 2817c1446af8344779cf6b47cb8dc23d, type: 3}
+    m_Category: 4
+    m_Color: 0
+    m_FlipsAfterStamp: 1
+  - m_Name: liltongue
+    m_Sprite: {fileID: 21300000, guid: dea67114256ce4c319a0919bc5fcadf6, type: 3}
+    m_Category: 5
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: tentacles
+    m_Sprite: {fileID: 21300000, guid: 5955def3d4d3e4ad685bc838f2b8dddc, type: 3}
+    m_Category: 3
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: can
+    m_Sprite: {fileID: 21300000, guid: 8cc00524fa7f948108e47903bbcdeb4a, type: 3}
+    m_Category: 6
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: bighole
+    m_Sprite: {fileID: 21300000, guid: daa3ca24aff8f4626b70fbf88fe54398, type: 3}
+    m_Category: 4
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: elf
+    m_Sprite: {fileID: 21300000, guid: fdb47734e0d2741cba38f90bff84df49, type: 3}
+    m_Category: 6
+    m_Color: 6
+    m_FlipsAfterStamp: 1
+  - m_Name: poof
+    m_Sprite: {fileID: 21300000, guid: 648d48f30109741b9afdcc69b0271d4d, type: 3}
+    m_Category: 3
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: open
+    m_Sprite: {fileID: 21300000, guid: 0597cbf34502d43e8928d8db0ebd7304, type: 3}
+    m_Category: 5
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: button
+    m_Sprite: {fileID: 21300000, guid: e781dbf3a9d06493d94e317ab8fe9e70, type: 3}
+    m_Category: 4
+    m_Color: 4
+    m_FlipsAfterStamp: 1
+  - m_Name: mohawk
+    m_Sprite: {fileID: 21300000, guid: 7db065e3336f54363bad2d70c191ada9, type: 3}
+    m_Category: 3
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: incubus
+    m_Sprite: {fileID: 21300000, guid: 27ad81f349d9b4a92a229cd5099a053e, type: 3}
+    m_Category: 1
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: lump
+    m_Sprite: {fileID: 21300000, guid: 5872ed44d973f4772bcb42b3c57b4d2e, type: 3}
+    m_Category: 7
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: alert
+    m_Sprite: {fileID: 21300000, guid: 2ad08054b51b248f8b354a0648b5d75e, type: 3}
+    m_Category: 15
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: slob
+    m_Sprite: {fileID: 21300000, guid: 5604c4545a0b64d108c30f4644c65545, type: 3}
+    m_Category: 1
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: lips
+    m_Sprite: {fileID: 21300000, guid: c6f945541092b4eb3bec94e57f61b86f, type: 3}
+    m_Category: 5
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: twitter
+    m_Sprite: {fileID: 21300000, guid: ec37b2643658c4d278f87d3e20bf8024, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: yellow
+    m_Sprite: {fileID: 21300000, guid: 3ef51974190284f9bafbc9d243de7e7b, type: 3}
+    m_Category: 4
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: dog
+    m_Sprite: {fileID: 21300000, guid: d2364a74e34e54eb2969d42d149f9ad2, type: 3}
+    m_Category: 7
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: strong
+    m_Sprite: {fileID: 21300000, guid: 49212a300b0234a1a849fb5984963e8c, type: 3}
+    m_Category: 7
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: solid
+    m_Sprite: {fileID: 21300000, guid: aa233cd38632c4c6c82b4f99ae0036cf, type: 3}
+    m_Category: 4
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: fangs
+    m_Sprite: {fileID: 21300000, guid: eea2d5205ac974d229a4413d461d4750, type: 3}
+    m_Category: 5
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: can
+    m_Sprite: {fileID: 21300000, guid: adf95f20a8f4b4fe78e76f658262b6ff, type: 3}
+    m_Category: 6
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: pig
+    m_Sprite: {fileID: 21300000, guid: 62374ec34153149139c5e7e3d05be9e2, type: 3}
+    m_Category: 7
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: flickr
+    m_Sprite: {fileID: 21300000, guid: 755bd7d38cc844fd8b5c39cdeab5c195, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: question
+    m_Sprite: {fileID: 21300000, guid: 070550100af2148b787d62ecd02538d2, type: 3}
+    m_Category: 15
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: goro
+    m_Sprite: {fileID: 21300000, guid: 57e29e2172846463a9f11d3a9c760d03, type: 3}
+    m_Category: 1
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: scowl
+    m_Sprite: {fileID: 21300000, guid: 5b1e315034eeb4296bd66ac5b834fc19, type: 3}
+    m_Category: 4
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: bolt
+    m_Sprite: {fileID: 21300000, guid: 0ddb2180f1b9e4e10aecdb442668a7dc, type: 3}
+    m_Category: 6
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: elf
+    m_Sprite: {fileID: 21300000, guid: 470251703a7294cdcb25adbd60f780a4, type: 3}
+    m_Category: 6
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: mac_os
+    m_Sprite: {fileID: 21300000, guid: 17b0ae60ac9ed4b04aecc6cab0a062b6, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: exclamation
+    m_Sprite: {fileID: 21300000, guid: ff185e11a51bc4f2db2185093f8364c2, type: 3}
+    m_Category: 15
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: dog
+    m_Sprite: {fileID: 21300000, guid: 3b4e7d10d76c34e5b932079aa8f8a2f8, type: 3}
+    m_Category: 7
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: heart
+    m_Sprite: {fileID: 21300000, guid: 0645c580bda6c4824bcb0efb7ed2f823, type: 3}
+    m_Category: 15
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: tumor
+    m_Sprite: {fileID: 21300000, guid: ff01f170b89404f65a85452f2f63ff1f, type: 3}
+    m_Category: 13
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: slender
+    m_Sprite: {fileID: 21300000, guid: ad03772087a92458d946a413d81d7b68, type: 3}
+    m_Category: 1
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: phalic
+    m_Sprite: {fileID: 21300000, guid: 4dab81207ba324cd483a97362f70540d, type: 3}
+    m_Category: 7
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: narrow
+    m_Sprite: {fileID: 21300000, guid: 254928b3accfb4a6cb4fe5429d54ada1, type: 3}
+    m_Category: 7
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: lamprey
+    m_Sprite: {fileID: 21300000, guid: 65d562a315ff44a48bb526d0ed27138e, type: 3}
+    m_Category: 5
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: pig
+    m_Sprite: {fileID: 21300000, guid: 4f796f933ebae4537a314fbf633be5dd, type: 3}
+    m_Category: 7
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: x_giant
+    m_Sprite: {fileID: 21300000, guid: d2ec66a32340c45d19571f86f7473255, type: 3}
+    m_Category: 4
+    m_Color: 0
+    m_FlipsAfterStamp: 1
+  - m_Name: long
+    m_Sprite: {fileID: 21300000, guid: 51101db3979144854852ff3b1aa60208, type: 3}
+    m_Category: 7
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: snake
+    m_Sprite: {fileID: 21300000, guid: c24fdeb37847947daaba93a4caa987a9, type: 3}
+    m_Category: 1
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: mohawk
+    m_Sprite: {fileID: 21300000, guid: fbd15783fca784352b6e2b11878043d5, type: 3}
+    m_Category: 3
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: goro
+    m_Sprite: {fileID: 21300000, guid: 775b5783ac93042079b178198cf10825, type: 3}
+    m_Category: 1
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: medalian
+    m_Sprite: {fileID: 21300000, guid: 459c9083b132b40e8bb26dcbedb9fa12, type: 3}
+    m_Category: 9
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: tornado
+    m_Sprite: {fileID: 21300000, guid: 467cee40481f94e2996401fd2fcd5136, type: 3}
+    m_Category: 15
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: dino
+    m_Sprite: {fileID: 21300000, guid: 93af6a7344ca34c3c8369d3c42d659f1, type: 3}
+    m_Category: 13
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: dog
+    m_Sprite: {fileID: 21300000, guid: 03b11d734f9404d1c9a8025222d6a02d, type: 3}
+    m_Category: 7
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: dino
+    m_Sprite: {fileID: 21300000, guid: cb285f73ba8474453bc3a1e6856f61d7, type: 3}
+    m_Category: 13
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: gauges
+    m_Sprite: {fileID: 21300000, guid: c092c383f0dd143bd847f06a9292afa6, type: 3}
+    m_Category: 6
+    m_Color: 3
+    m_FlipsAfterStamp: 1
+  - m_Name: blob
+    m_Sprite: {fileID: 21300000, guid: 00538683e249a45bca479a91bc2de768, type: 3}
+    m_Category: 1
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: saiyan
+    m_Sprite: {fileID: 21300000, guid: cc0cea83324ab4ebab5a07efb7abba55, type: 3}
+    m_Category: 3
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: mobileme
+    m_Sprite: {fileID: 21300000, guid: 366cf39362fde45ea8c043adc746f725, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: anime
+    m_Sprite: {fileID: 21300000, guid: eb33646318e6a4c92931dc7333fb13ce, type: 3}
+    m_Category: 4
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: elf
+    m_Sprite: {fileID: 21300000, guid: 343f39631831048c5ba98ca47e1b1f7d, type: 3}
+    m_Category: 6
+    m_Color: 1
+    m_FlipsAfterStamp: 1
+  - m_Name: nub
+    m_Sprite: {fileID: 21300000, guid: 0dfe4350bc0e34a83b9976dcce33db36, type: 3}
+    m_Category: 7
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: lips
+    m_Sprite: {fileID: 21300000, guid: 4f59b35357c4d4d03b16eb12795b1f57, type: 3}
+    m_Category: 5
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: instagram
+    m_Sprite: {fileID: 21300000, guid: d5299b530d1ab4af5a97de371a06dddd, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: anime
+    m_Sprite: {fileID: 21300000, guid: a8cdfd43ad2ad4dfda440fd433abe733, type: 3}
+    m_Category: 4
+    m_Color: 7
+    m_FlipsAfterStamp: 1
+  - m_Name: goo
+    m_Sprite: {fileID: 21300000, guid: 2206ba13761524be78be27f71e891c2c, type: 3}
+    m_Category: 13
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: spider
+    m_Sprite: {fileID: 21300000, guid: 19532a130856f4c93bce83b72fe1f562, type: 3}
+    m_Category: 1
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: skull
+    m_Sprite: {fileID: 21300000, guid: ce9fbc13a5b434148ba9a543777561dc, type: 3}
+    m_Category: 13
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: skull
+    m_Sprite: {fileID: 21300000, guid: ec1504234331f463f9988443249c922c, type: 3}
+    m_Category: 13
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: incubus
+    m_Sprite: {fileID: 21300000, guid: f7062c032ca4c45d8b3b78ffa0909652, type: 3}
+    m_Category: 1
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: saiyan
+    m_Sprite: {fileID: 21300000, guid: 52ddd113703ba4d2cbf5482f15338bad, type: 3}
+    m_Category: 3
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: wince
+    m_Sprite: {fileID: 21300000, guid: 7066121374a0b4f409cf65159c6fe4f2, type: 3}
+    m_Category: 5
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: flat
+    m_Sprite: {fileID: 21300000, guid: d7a58ff28b3dd45c9966be61e52352e3, type: 3}
+    m_Category: 7
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: lips
+    m_Sprite: {fileID: 21300000, guid: f3ac9003e41874b1790a06e4ca7f2b53, type: 3}
+    m_Category: 5
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: indiedb
+    m_Sprite: {fileID: 21300000, guid: fa4fc6e285c18437e9dcd5916e103a59, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: anime
+    m_Sprite: {fileID: 21300000, guid: ff9162e2e71ab4e959c8044d6df7ed4c, type: 3}
+    m_Category: 4
+    m_Color: 5
+    m_FlipsAfterStamp: 1
+  - m_Name: long
+    m_Sprite: {fileID: 21300000, guid: 8d0bf700c0d4147bb8a26532c231f4e9, type: 3}
+    m_Category: 7
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: liltongue
+    m_Sprite: {fileID: 21300000, guid: d59a7e9283dae466aa09e80fcbfa2971, type: 3}
+    m_Category: 5
+    m_Color: 1
+    m_FlipsAfterStamp: 0
+  - m_Name: cube
+    m_Sprite: {fileID: 21300000, guid: 99a63f9258b644e8aaba237626c64732, type: 3}
+    m_Category: 13
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: reg
+    m_Sprite: {fileID: 21300000, guid: e02a60822d4894b64bf09425d6f606e2, type: 3}
+    m_Category: 6
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: mech
+    m_Sprite: {fileID: 21300000, guid: 6c87c68257d224a32b2b56d713adecdf, type: 3}
+    m_Category: 13
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: robot
+    m_Sprite: {fileID: 21300000, guid: db4dd8822ee7141cba641a802b65ded8, type: 3}
+    m_Category: 1
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: bg3
+    m_Sprite: {fileID: 21300000, guid: 2c529b827a32c49158e55f15b8af1338, type: 3}
+    m_Category: 0
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: blob
+    m_Sprite: {fileID: 21300000, guid: b616bea24102e42dc8362f1383072dd1, type: 3}
+    m_Category: 1
+    m_Color: 2
+    m_FlipsAfterStamp: 0
+  - m_Name: upturned
+    m_Sprite: {fileID: 21300000, guid: 5f3a5b42ba18e415abd5f610f11dc719, type: 3}
+    m_Category: 7
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: pig
+    m_Sprite: {fileID: 21300000, guid: 7ebb7562d798242cd9675ca65a823b9e, type: 3}
+    m_Category: 7
+    m_Color: 4
+    m_FlipsAfterStamp: 0
+  - m_Name: scowl
+    m_Sprite: {fileID: 21300000, guid: 953d1532f886a44f09fd14dd10754398, type: 3}
+    m_Category: 4
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: mech
+    m_Sprite: {fileID: 21300000, guid: bf24e6320a3fb494899edf0eabdb6629, type: 3}
+    m_Category: 13
+    m_Color: 8
+    m_FlipsAfterStamp: 0
+  - m_Name: lamprey
+    m_Sprite: {fileID: 21300000, guid: 38d3ecb244a424786a909fa535e0078d, type: 3}
+    m_Category: 5
+    m_Color: 5
+    m_FlipsAfterStamp: 0
+  - m_Name: netvibes
+    m_Sprite: {fileID: 21300000, guid: 2d487690b84e942c0bf2a1a6e1016e5b, type: 3}
+    m_Category: 12
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: spider
+    m_Sprite: {fileID: 21300000, guid: 5dbb4590240dc4dd3900ee1a77433710, type: 3}
+    m_Category: 1
+    m_Color: 7
+    m_FlipsAfterStamp: 0
+  - m_Name: bg7
+    m_Sprite: {fileID: 21300000, guid: ed467002ce53c46298c3f7fee00d842d, type: 3}
+    m_Category: 0
+    m_Color: 0
+    m_FlipsAfterStamp: 0
+  - m_Name: smallhole
+    m_Sprite: {fileID: 21300000, guid: b1a51212d54ef4fcc900a995896f88bc, type: 3}
+    m_Category: 4
+    m_Color: 8
+    m_FlipsAfterStamp: 1
+  - m_Name: dog
+    m_Sprite: {fileID: 21300000, guid: d06a821217ac34bbf81aaf7577c43252, type: 3}
+    m_Category: 7
+    m_Color: 6
+    m_FlipsAfterStamp: 0
+  - m_Name: robot
+    m_Sprite: {fileID: 21300000, guid: cf878422712084b4a808f2d6511019f2, type: 3}
+    m_Category: 1
+    m_Color: 3
+    m_FlipsAfterStamp: 0
+  - m_Name: heart
+    m_Sprite: {fileID: 21300000, guid: 434652515c042472b8d2bd90e5034bdb, type: 3}
+    m_Category: 15
+    m_Color: 6
+    m_FlipsAfterStamp: 0

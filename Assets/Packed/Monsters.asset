@@ -1,0 +1,732 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5940dd626b44b48fe60b3b9a8eb117, type: 3}
+  m_Name: Monsters
+  m_EditorClassIdentifier: 
+  m_Items:
+  - m_Portrait: {fileID: 21300000, guid: 88a2855db53e34db18dbafecfdcbca0e, type: 3}
+    m_Name: Zaga Biledrinker
+    m_Byline: "Something you didn\u2019t know about me"
+    m_Body: 'Everyone thinks orcs are blood-thirsty killing machines engineered by
+      evil wizards. Well, guess what. I work at the Humane Society, so check your
+      stereotypes. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 400d14927b05247beac3f8a9dcf63d25,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 6a1d6bfc3139246e0a8828326e515856, type: 3}
+    m_Name: Kallux
+    m_Byline: Things we could do together
+    m_Body: I love to pick off parasites on my days off. If you have parasites too
+      we can pick them off together.
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 1
+  - m_Portrait: {fileID: 21300000, guid: 03c2b8cbad4704e1abd45991c3435666, type: 3}
+    m_Name: 'Count Daniel '
+    m_Byline: What I do for work
+    m_Body: My startup makes farm-to-table, 100% vegan blood for Vampires.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 95c0d2bbb2fb7434082b5d2ed20e0c93,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 24deff72eb0de4d329bb01449f5f4e2f, type: 3}
+    m_Name: Yigrasdi'il
+    m_Byline: My dream vacation
+    m_Body: A placid island of ignorance in the midst of black seas of infinity
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 74f51d2f9eba04ab5b2c81d08051373a,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 6c58c6e67a22544afb6c643f8d18ddc0, type: 3}
+    m_Name: The Murkmonster
+    m_Byline: I value
+    m_Body: Extremely salty children. I'll never forget the tangy taste of the sea
+      when I ate the entire Davis family.
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 3
+  - m_Portrait: {fileID: 21300000, guid: f6672df2d9781428fb898083bed4fddc, type: 3}
+    m_Name: Damian Smith
+    m_Byline: Three things I could never do without
+    m_Body: Lamborghinis, parties on my yacht, and golf tournaments. Oh, and your
+      soul. So four things, I guess.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 23f63658089e2482ea16984c9735e93c,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 46d55881ef2cf4b3694a1e0fc7b360b3, type: 3}
+    m_Name: Unth
+    m_Byline: 'Things we could do together '
+    m_Body: 'There''s this really cool new bridge in Williamsburg we can hide under
+      this weekend. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: bdc043b6537604b3f94c85c66856aea5,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 59a80e89f5fe548a4bf61715a06a62eb, type: 3}
+    m_Name: Olga Redblood
+    m_Byline: Favorite Food
+    m_Body: Protein shakes with almond milk, vanilla, bananas and halfling liver
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: fd8a63513ab644123a990317e788389c,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 272192e72c306483baf00e154c71b7d9, type: 3}
+    m_Name: Lilith "Lily" Shesh-Kalla
+    m_Byline: Somethin you didn't know about me
+    m_Body: My name means "night monster", "night hag", or "screech owl".
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: f4d3a1cececd2407aa840c1ecf53ac8f,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 5319198c9870a42ebae6cc24fda83314, type: 3}
+    m_Name: 'Optoraxx '
+    m_Byline: 'The dorkiest thing about me '
+    m_Body: 'I think the videos of me eating all those delicious ants that fall into
+      my sand traps are legitimate works of cinema with serious plot structure. God
+      I''m such a dork. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 1
+  - m_Portrait: {fileID: 21300000, guid: d2839f748d01d4e5197f9f50c6903ea2, type: 3}
+    m_Name: Zalath the Great Demon
+    m_Byline: "In the zombie apocalypse, I\u2019d be the one\u2026"
+    m_Body: Starting it all. The Night Will Prevail!
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 0e9791ecc70b94fd8afde7de21bfd61a,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 86266c5d9486949a684a512e0fc792e7, type: 3}
+    m_Name: 'Peepsy Butterworth '
+    m_Byline: 'My Patronus is '
+    m_Body: 'The most fearsome human, the Customer Service Agent. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 0089dd29dfcc246b789020ccf8b64cab, type: 3}
+    m_Name: Diavante
+    m_Byline: "Most spontaneous thing I\u2019ve done "
+    m_Body: 'After I possessed all those people at the mall, I made them all visit
+      the Microsoft Store. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: a402d238976ab45318866a785bdfb899, type: 3}
+    m_Name: 'Biblioclops '
+    m_Byline: "Something you didn\u2019t know about me"
+    m_Body: I once dated the Monster Book of Monsters from Harry Potter.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 08575a5f754c7495a9a19193d63e5fa2,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: c20a80433039044fe8c6f7bea4c94bf8, type: 3}
+    m_Name: Adexiot
+    m_Byline: 'My most irrational fear '
+    m_Body: Sometimes when me and my buddies are swarming the mummy hunter I'm afraid
+      I'll trip my midlegs over my forelegs and I'll fall and make a huge traffic
+      jam and ruin the whole thing.
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 1
+  - m_Portrait: {fileID: 21300000, guid: 1875b3585750c4694a59b06274755047, type: 3}
+    m_Name: Blake Van Gorgon
+    m_Byline: Biggest turn on?
+    m_Body: ROCK hard abs... ;) LOL
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 71f0f9555c1fe413ca2a28a90e1b3805,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: d7a4a7eee75574e539740401b9aa5b14, type: 3}
+    m_Name: Massive Melissa
+    m_Byline: 'What inspires me '
+    m_Body: nothing
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: e02a027377fdb451dbc212d43a4a3d7b,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: d0c41a6d27b574837b03cab3bc1d2b74, type: 3}
+    m_Name: 'Sporio VIII '
+    m_Byline: "What I\u2019ll do when I retire "
+    m_Body: 'Move to the caves and just spend time with me and my four hundred million
+      reproductive spores. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 0653e3fd6f5c14d2098648d8bd59f6eb, type: 3}
+    m_Name: Malca Succuba
+    m_Byline: 'What I am doing with my life '
+    m_Body: 'I''m just an honest, hardworking demon trying to break it into Evil with
+      my first gig as an algebra teacher. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 79ebaabc000eb439fa2670a6e92ba774,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 1a34f61336f104fef8ed5ceaec7f7ed0, type: 3}
+    m_Name: Orangotron
+    m_Byline: "What I\u2019m looking for in a partner "
+    m_Body: 'BANANAS BANANAS BANANAS BANANAS BANANAS BANANAS BANANAS BANANAS BANANAS
+      BANANAS BANANAS '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 4
+  - m_Portrait: {fileID: 21300000, guid: 37601d377410246e2ad47aa498bf5796, type: 3}
+    m_Name: Meech
+    m_Byline: 'Best part of my job '
+    m_Body: Giving people shoes one size too small.
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 3
+  - m_Portrait: {fileID: 21300000, guid: 525975c34c6484f23ad6acf271446489, type: 3}
+    m_Name: 'The Brisbane Strangler '
+    m_Byline: "I\u2019m really good at "
+    m_Body: 'Juggling my internal organs in the air while still being alive and then
+      using sleight of hand to make it look like they''re disconnected but they were
+      connected the whole time.
+
+'
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 3
+  - m_Portrait: {fileID: 21300000, guid: b0f76e54c12564a19adf8d0709aa707c, type: 3}
+    m_Name: Ooooort
+    m_Byline: 'Favorite thing from my childhood '
+    m_Body: 'Being the ethereal haze of confusion that forced all those dads to go
+      to baseball games with their children. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: aa80da05216d44cc386ab9950d589c89, type: 3}
+    m_Name: Cerevermis
+    m_Byline: 'Best thing about where you live '
+    m_Body: 'The inside of my human''s head is just big enough for a Brainpong table. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 3
+  - m_Portrait: {fileID: 21300000, guid: 6d6ea09cbaab14bf29525757c7e57298, type: 3}
+    m_Name: iWoman
+    m_Byline: 'What inspires me '
+    m_Body: 'The recordings of the conversations my customers have in the bathroom. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 4
+  - m_Portrait: {fileID: 21300000, guid: 45066f7968c9b43f8832678dbe2090a6, type: 3}
+    m_Name: 'Restomophoeles '
+    m_Byline: 'Something amazing I recently learned '
+    m_Body: 'Celebrities spend hours every morning getting ready to beg their personal
+      demons for their souls back. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 05482f8be72904554a11ab44fe59ff2a, type: 3}
+    m_Name: Piers Leafmore-Pine
+    m_Byline: 'My favorite book '
+    m_Body: Walden by Henry David Thoreau. Jk... The Art of the Deal by Donald Trump.
+      Obvi.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: bb343e71b6b0342e4bfcad53dfd00d83,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 8fd4a0b3769a246b883d72fe366719e8, type: 3}
+    m_Name: 'Icytho '
+    m_Byline: 'My ideal partner is '
+    m_Body: 'Fossilized. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 93eed055d48804cc49a5a755b03239fd, type: 3}
+    m_Name: 'Apprentice Nine '
+    m_Byline: 'I should spend less time '
+    m_Body: 'Discussing the details of the attack on the partisan base with Emperor
+      Draconius and simply engage them with the full might of our Scytheship! '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 9450c9aa87cfa46c293a571e9e983a77, type: 3}
+    m_Name: Grooglubglub
+    m_Byline: My best adventure
+    m_Body: Being above water for once.
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 3
+  - m_Portrait: {fileID: 21300000, guid: 9f0defe1010364f678b55119656aa834, type: 3}
+    m_Name: Siddharta Baltorox The Unwielding
+    m_Byline: Three things I could never do without
+    m_Body: Chevron of the Nine-Tailed Demon, Chevron of the Hundred Year Famine,
+      and Chevron of the Ten Dollar Free-Trade Oat Milk Coffee.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: b944427307f854185b10bbb43d6ed6f2,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 96a5fb4fdb5844561b7788ec84a2b394, type: 3}
+    m_Name: 'Focused Instant System of Terror (FIST) '
+    m_Byline: 'My favorite joke '
+    m_Body: 'An autonomous mobile weapons platform specially equipped with unique
+      anti-personnel offensive capabilities walks into a bar. Then, all targets are
+      eliminated. HA HA HA HA HA HA HA HA HA HA HA END TRANSMISSION '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 4
+  - m_Portrait: {fileID: 21300000, guid: 4689802ab98644a7b82d93f8722e44ba, type: 3}
+    m_Name: Jennifer Bushtail
+    m_Byline: Two truths and a lie
+    m_Body: I served in the military. I can bench 150lbs. Rhianna wore my cousin to
+      the Met Gala.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: b5dbee1643627492883311017b546865,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: e015bcaccb4fe4a3aa61462f043cf070, type: 3}
+    m_Name: Minatanya
+    m_Byline: In the zombie apocalypse, I'd be the one...
+    m_Body: 'Leading all the zombies into the giant maze I build at the mall. Then
+      I''d cut the power and slowly hunt them one-by-one. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 9df689d14a7f047b48725242a7e0d28a,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: cf0eebfb5f6f84565a57b776ccb3918f, type: 3}
+    m_Name: 'Rororos, King of the Dire Wolves '
+    m_Byline: 'What I do on my days off '
+    m_Body: Pretty much drinking Tuna Juice, sunbathing, and sniffing some butts.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 920f99a486a4e4221a8017830dbf9b86,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 3cc6a471003ae470dbc72f6ac7b416c0, type: 3}
+    m_Name: 'Hyunmai XC1 '
+    m_Byline: 'Things I could never do without '
+    m_Body: 'My redundant fusion energy core. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 4
+  - m_Portrait: {fileID: 21300000, guid: a1b6eb4e513eb484ab59a9ff4468541c, type: 3}
+    m_Name: Dracostrasza
+    m_Byline: Songs that describe your life
+    m_Body: Game of Thrones opening theme. NAAH NAAH... NAH NAH NAAH NAAH... NAH NAH
+      NAAH NAAH.. NAH NAH!
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: afe326fe5043a4d1a93acacc10936d9d,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: f1ecf21c95bd54c91b7f4f7428eae100, type: 3}
+    m_Name: Loa Mami Ssssss
+    m_Byline: Perfect date
+    m_Body: According to the rite.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: ef1645569c75543b883c05da633b2c02,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: fcabcb7a27171492696ddb5ddb2cc549, type: 3}
+    m_Name: 'oJOY '
+    m_Byline: 'My favorite music '
+    m_Body: Ever since I saw The Abletons live at Glasgow I've been in playing their
+      prerecorded drops on repeat. The way they hit the play button on their laptops
+      is just WILD.
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 4
+  - m_Portrait: {fileID: 21300000, guid: 0497d63431755455da8a91b3d946f12c, type: 3}
+    m_Name: Bobby "Redeyes" Turnip
+    m_Byline: Favorite meal
+    m_Body: Jack-in-the-box at 2am.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 13b1e01f693e04bbe96e019b304882f5,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: c9a757d4c52ba42f9a64e7965fb2e612, type: 3}
+    m_Name: 'Pliklacks '
+    m_Byline: 'Ideal Weekend Routine '
+    m_Body: Spending the whole morning soaking in the tub and rubbing those rough
+      spa towels on each mandible.
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 1
+  - m_Portrait: {fileID: 21300000, guid: c0772c069f0d44e63900f3438df45aad, type: 3}
+    m_Name: 'Number 39932 '
+    m_Byline: 'When I die, I will '
+    m_Body: 'Continue to fight the Eternity Conflict as my other clones. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 426e1ca7c7c4c49bf95e15c2d9864863, type: 3}
+    m_Name: Tictlacaittaz
+    m_Byline: Unpopular opinions
+    m_Body: 'Human sacrifices are cool. Speedos make everyone look great. Feather
+      headdresses are masculine. The Sun God is the worst god. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: c5b6571e67b484913a486cb13a3d95a3,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 90745c031dd034002baff1a520887353, type: 3}
+    m_Name: Mortubot
+    m_Byline: 'My favorite pastimes '
+    m_Body: 'Carefully preserving the remaining embalming chemicals into their appropriate
+      receptacles until more embalming chemicals are needed for the following twenty-four
+      hour mortuary automation period. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 4
+  - m_Portrait: {fileID: 0}
+    m_Name: Prostatetious
+    m_Byline: 'My worst date '
+    m_Body: 'She ordered the only piece of human food at Denny''s. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 3
+  - m_Portrait: {fileID: 21300000, guid: 476d5f01f56df4ce8a35a0814195a343, type: 3}
+    m_Name: Ariel Angeline
+    m_Byline: Most likely / Least likely
+    m_Body: Most likely to look good in white. Least likely to ever do anything bad
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: dce1adf9db658477ca92fd3c68d1b9c3,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: c37fe9960f9064efabb5363bb37c7cb0, type: 3}
+    m_Name: 'Codename ULTRA '
+    m_Byline: 'Places I want to see '
+    m_Body: 'Whatever is behind the fourteenth door of Testing Chamber B3. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: d60d9fa5e0bee42b9bd67447a8f6ee71, type: 3}
+    m_Name: 'Herodetus Rex '
+    m_Byline: 'My favorite food '
+    m_Body: 'Guanobee larva. Omg I go CRAZY for fresh guanobee larva. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: de9c613223a50467ca44cafb3b8b5772, type: 3}
+    m_Name: Dr. Murderous, M.D.
+    m_Byline: "Why I\u2019m afraid of death"
+    m_Body: I'm not. I'm a demon.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 7ca034cf37a3c44b6a1e6557f502d9b0,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 1200e81acaaf94175b68c0cdb43c906d, type: 3}
+    m_Name: 'OS Upgrade '
+    m_Byline: "Most people that know me would say I\u2019m "
+    m_Body: 'Capable of draining any battery in any model of cellular telephone. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: a2d12e40692de42669519067fc24aefe, type: 3}
+    m_Name: Leviathanos
+    m_Byline: My golden rule
+    m_Body: Eat others the way you'd like to be eaten.
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 121451a3957d24f9cbdf084434bf7f1b, type: 3}
+    m_Name: Faith Seedplanter
+    m_Byline: Two truths and a lie
+    m_Body: 'I ran away from my warren at age 7. I started my own NOW (No Orc War)
+      branch. I talk to my parents everyday. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 87bc873722ba64f749443a1e43d89192,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: a010b0986e42843609988d4456d8adde, type: 3}
+    m_Name: Little Johnny Chestface
+    m_Byline: Two truths and a lie
+    m_Body: 'I killed the entire Corleone family over a bad marinara. My favorite
+      song is "Happy" by Pharrell Williams. I was a Gerber baby. '
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 56fa75289918c49d7a3d30694f036dbb,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 0
+  - m_Portrait: {fileID: 21300000, guid: 68f011b364c5946ffbc434dc2145f871, type: 3}
+    m_Name: Skoob
+    m_Byline: "What I\u2019m actually looking for"
+    m_Body: You should have at least five octaves worth of ribcage bones. They're
+      going to kick me out of the jazz band for any less.
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 3
+  - m_Portrait: {fileID: 21300000, guid: 1b137efe64cc744b6bdf9de368d9347e, type: 3}
+    m_Name: Dionaea oblita
+    m_Byline: My weirdest quirk
+    m_Body: Sometimes I shout out the wrong guy's name while I'm digesting the current
+      one.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 62e9a807eb6924dc78cd8c64f441966c,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 64de5c5f356964830990608fac12c10f, type: 3}
+    m_Name: Mediatron 2016
+    m_Byline: I like to make
+    m_Body: Conspiracy theories disguised as funny memes. You know, for that perfect
+      girl in my life.
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 6eefc644ceb3b425683c5b6061304fb5, type: 3}
+    m_Name: The Blob
+    m_Byline: Best Trait / Worst Trait
+    m_Body: Good Listener / Clingy, All-consuming
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 4037209a57f8b47cd9a155829b51f1e9,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: c6cfe60e2f03246cba7c26f8b02ccefa, type: 3}
+    m_Name: Kringlekrist
+    m_Byline: Nightmare date
+    m_Body: Going to my girlfriend's parents house for Christmas dinner
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: d1abc28d36a834ea0a563fb1fa97618e,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: b265572a3c9b942e3bbc6cac5bfc7b04, type: 3}
+    m_Name: Tayzilla
+    m_Byline: Best day of my life
+    m_Body: My wedding day!!! (haven't had it yet but someday it will be AMAZING!!!!!)
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: f8637812bb5d14e27b16293fe061cf42,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 95ce6f7350f3d4d9983f422a263f1078, type: 3}
+    m_Name: SAL
+    m_Byline: You should message me if
+    m_Body: Our messaging protocols, firmware revisions and intercourse slots are
+      fully compatible.
+    m_Dialogue:
+      m_InkConversation: {fileID: 0}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 4
+  - m_Portrait: {fileID: 21300000, guid: 5b33467f88bcf40d992b6b34823d3b7e, type: 3}
+    m_Name: Ms. Dimples
+    m_Byline: One thing you should know about me is
+    m_Body: I can only speak in these questions to ponder. They are answers too simple
+      to see. I can describe it and say, "What am I? Before it is answered, it is
+      these.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: a643ee7f1f18440f79cb83228cc72919,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: d184952aae69843d2b7b8d694bf817e2, type: 3}
+    m_Name: Freckles
+    m_Byline: I will never date someone that
+    m_Body: Is not a virgin. Virgins are literally the only people that can see me.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 37ae79ad15b6b46ec94219debe9ad233,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 6ae797f19e7e84b32953ebe9850dcb5a, type: 3}
+    m_Name: Peggy the Pegasus
+    m_Byline: Pet peeve
+    m_Body: Bronies. Fuck those guys.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: a0c19e470de964f1a9f5827ba08b7539,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: ed85df0e0b995476492e14354616d3a0, type: 3}
+    m_Name: Lernaean Hydra
+    m_Byline: Favorite quote
+    m_Body: If you wanna be my lover, you gotta get with my friends -Spice Girls
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: c7ac6217e1aa245a6b9ca4a80f027fe8,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 15f476a8c35674da184c51e1ca528bfc, type: 3}
+    m_Name: Nellie
+    m_Byline: The first thing people notice about me
+    m_Body: My sister, Nessie. I'm Loch Nell. No, I don't know her number. No, I don't
+      know where you can find her.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: da6fd1d3c26cd43e882b68f2209fc019,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: a5701302b607644ab8c3e4825a78ffad, type: 3}
+    m_Name: Fiona Fenix
+    m_Byline: On a typical Friday night I am
+    m_Body: 'CLUBBING!!!!!! #cantstopwontstop #onfire #rebirth #love #LA #life'
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 2ef7f3f1490fe4bbb9ff6b6e3a6ec42b,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: c6b5f88b304c7494996897991c2bae33, type: 3}
+    m_Name: Octiana
+    m_Byline: Unusual Talent
+    m_Body: A single suction cup on one of my eight arms can suck a sea slug out from
+      under 5 feet of sand. Do you have any slugs that need sucking?
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 5a2c2a186c7dd46efb44554b0915a4fd,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 56748f306a2e246c7a42ba3de567b62f, type: 3}
+    m_Name: Temelia the Gilded
+    m_Byline: Guilty Secret
+    m_Body: I have two caves full of shoes.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: f4ac4d120fef54dd5ab27d819f74d6c8,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: a65107b043d55456ab0e4c1da7f6f95c, type: 3}
+    m_Name: Martha Manyeyed
+    m_Byline: Favorite Movie and why
+    m_Body: Charlotte's Web. It was the first movie I watched as a kid where someone
+      who looked like me was the hero, and not some dumb kid's nightmare fuel
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 9f7ae61b604604ee8ba77ad3b423b0fd,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: c1aee6d02c11d408ea4f2feffd679883, type: 3}
+    m_Name: Mandycore
+    m_Byline: Something you'd never guess about me
+    m_Body: I'm a child beauty paegent champion! My mom went a little crazy with the
+      plastic surgery tho, LOL!
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 481e4ebaa23264545b4ffaf9941a4081,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: e207373c247694619a1b8d8dc2396c9d, type: 3}
+    m_Name: Jonathan Falcos
+    m_Byline: Proudest moment
+    m_Body: I played Bronx on the hit TV show Gargoyles. Kids still send me letters
+      saying how I'm their favorite character. Hell, adults send me letters saying
+      how I changed their lives 20 years ago. I guess what I'm proudest of is that
+      I've kept my humility in the face of all this accomplishment. Don't be shy to
+      message me. God bless.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: d82cccce2ad3c4edeabb8998da79b962,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 354d25db1225542b2a97705f7ff833ea, type: 3}
+    m_Name: Beyholder
+    m_Byline: Biggest turn on?
+    m_Body: Compliments. Especially on my eyes.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 616b2fd257f4b48fb9f94685363c28f8,
+        type: 3}
+      m_PlayerStarts: 1
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 4fbddda1ed0e6413384ad46e3e996e10, type: 3}
+    m_Name: Morgana Spinesipper
+    m_Byline: What I find most attractive
+    m_Body: Honestly? Someone who looks at the world and sees how all the pieces fit
+      together. PhDs... Rocket scientists... Engineers... please message me! I'm looking
+      for someone with a big brain full of protein.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 74febd5c4d15249b5b257a634b88b617,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 833d0310a28884458b4ab109748f6f33, type: 3}
+    m_Name: Aldrich Clifford Hollingsworth
+    m_Byline: Pros and Cons
+    m_Body: 'Pros: Great conversationalist. Always win Trivial Pursuit (pre-2000s
+      edition). Humility. Cons: Nothing significant.'
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 12a44f77160054e86bd7f28067e31697,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: ad82f00c92ead4e78ba4211f6f5522ba, type: 3}
+    m_Name: Liam Yeti
+    m_Byline: Obscure Skills
+    m_Body: I can open a can without a can opener. I can light matches that fell into
+      freezing cold water. I can make rope out of my fur.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: a534821863fb445c3993ff736d216e58,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 4916c3d2888ab46ef9cd47f2640575da, type: 3}
+    m_Name: Larry
+    m_Byline: Most likely / Least likely
+    m_Body: Most likely to spend the night. Least likely to get along with your kids.
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 4eed72858d1d04b92aae102e7b18943b,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2
+  - m_Portrait: {fileID: 21300000, guid: 13960a627f2da47d3b854b952926276c, type: 3}
+    m_Name: Simius Pennatus III
+    m_Byline: Inspirational Quote
+    m_Body: '"It''s my destiny I will never say never I will fight ''til forever To
+      make it right"'
+    m_Dialogue:
+      m_InkConversation: {fileID: 4900000, guid: 1a37ca79ddabc4e91b2c87f0c33a23bd,
+        type: 3}
+      m_PlayerStarts: 0
+    m_LatentCategory1: 2

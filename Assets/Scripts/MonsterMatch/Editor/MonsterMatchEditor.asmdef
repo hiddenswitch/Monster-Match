@@ -1,0 +1,18 @@
+{
+    "name": "MonsterMatchEditor",
+    "references": [
+        "MonsterMatch",
+        "Unity.Addressables.Editor",
+        "Unity.Addressables"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
